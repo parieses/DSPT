@@ -42,7 +42,7 @@
                     <ul class="dropdown-menu search-nav" style="display: none;">
                         <li class="search_query_none isShow"><a href="javascript:;">请先输入搜索信息</a></li>
                         <li class="" style="display: none;"><a href="/Admin/index"><i class="fa fa-list-alt"></i> 商品列表</a></li>
-                        <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=add"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
+                        <li class="" style="display: none;"><a href="/Admin/commodityadd"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_spec&amp;a=init"><i class="fa fa-navicon"></i> 商品规格</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=init"><i class="fa fa-th-list"></i> 商品分类</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=trash"><i class="fa fa-recycle"></i> 商品回收站</a></li>
@@ -102,7 +102,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <div class="log-arrow-up"></div>
-                        <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&amp;c=mh_profile&amp;a=init"><i class="fa fa-cog"></i> 个人设置</a></li>
+                        <li><a href="/Admin/user"><i class="fa fa-cog"></i> 个人设置</a></li>
                         <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=notification&amp;c=mh_notification&amp;a=init"><i class="fa fa-bell-o"></i> 通知</a></li>
                         <li class="divider"></li>
                         <li><a href="/Admin/logout"><i class="fa fa-key"></i> 退出</a></li>
@@ -141,7 +141,7 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="/Admin/commoditylist"><i class="fa fa-list-alt"></i> 商品列表</a></li>
-                                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=add"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
+                                <li><a href="/Admin/commodityadd"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_spec&amp;a=init"><i class="fa fa-navicon"></i> 商品规格</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=init"><i class="fa fa-th-list"></i> 商品分类</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=trash"><i class="fa fa-recycle"></i> 商品回收站</a></li>

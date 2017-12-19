@@ -18,15 +18,12 @@
 <div id="wrapper">
 
     @include('public.html')
-
-
-
     <div class="container">
         <div id="main" class="main_content">
 
 
             <ol class="breadcrumb">
-                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=dashboard&a=init">管理主页</a></li>
+                <li><a href="/Admin/index">管理主页</a></li>
                 <li class="active">仪表盘</li>
             </ol>
 

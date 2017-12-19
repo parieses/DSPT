@@ -38,7 +38,7 @@
 </div>
 </body>
 </html>
-<script src="http://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="/layer/layer.js"></script>
 <script>
     var submits = document.getElementById('submit');

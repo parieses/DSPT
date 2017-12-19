@@ -4,10 +4,9 @@ namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class indexController extends Controller
+class AccountController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +15,7 @@ class indexController extends Controller
      */
     public function index()
     {
-        //
+        return view('home.account');
     }
 
     /**
@@ -24,9 +23,9 @@ class indexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function account()
     {
-        //
+        return view('home.account');
     }
 
     /**
