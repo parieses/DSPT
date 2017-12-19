@@ -11,12 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="ecjia team" />
     <link rel="shortcut icon" href="favicon.ico">
-
-    <!--[if lt IE 9]>
-    <script src="http://demodaojia.ecjia.com/content/apps/merchant/statics/js/html5shiv.js"></script>
-    <script src="http://demodaojia.ecjia.com/content/apps/merchant/statics/js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" id="googleapis-fonts-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/fonts/fonts.googleapis.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" id="bootstrap-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap.min.css?ver=1.24" type="text/css" media="all" />
     <link rel="stylesheet" id="bootstrap-reset-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap-reset.css?ver=1.24" type="text/css" media="all" />
     <link rel="stylesheet" id="ecjia-merchant-ui-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia-merchant.ui.css?ver=1.24" type="text/css" media="all" />
@@ -34,11 +29,7 @@
     <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/bootstrap.min.js?ver=1.24"></script>
     <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-pjax.js?ver=1.24"></script>
     <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/ecjia-js/ecjia.js?ver=1.24"></script>
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var admin_lang = {"display_sidebar":"\u663e\u793a\u4fa7\u8fb9\u680f","hide_sidebar":"\u9690\u85cf\u4fa7\u8fb9\u680f","search_check":"\u8bf7\u5148\u8f93\u5165\u641c\u7d22\u4fe1\u606f","search_no_message":"\u672a\u641c\u7d22\u5230\u5bfc\u822a\u4fe1\u606f","success":"\u64cd\u4f5c\u6210\u529f","fail":"\u64cd\u4f5c\u5931\u8d25","confirm_jump":"\u662f\u5426\u786e\u8ba4\u8df3\u8f6c\uff1f","ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","request_failed":"\u8bf7\u6c42\u5931\u8d25\uff0c\u9519\u8bef\u7f16\u53f7\uff1a","error_msg":"\uff0c\u9519\u8bef\u4fe1\u606f\uff1a"};
-        /* ]]> */
-    </script>
+
     <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant.js?ver=1.24"></script>
     <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant-ui.js?ver=1.24"></script>
 
@@ -150,7 +141,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
                             <img alt="" width="30" height="30" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/img/ecjia_avatar.jpg">
-                            <span class="username">张三</span>
+                            <span class="username">{{ $user->nickname }}</span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
@@ -160,7 +151,7 @@
                             <li class="divider"></li>
                             <li><a href="/Admin/logout"><i class="fa fa-key"></i> 退出登录</a></li>
                         </ul>
-                li>
+                </li>
                 </ul>
             </div>
         </nav>
@@ -375,14 +366,14 @@
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <img src="http://demodaojia.ecjia.com/content/uploads/merchant/62/data/shop_logo/1477683254803646447.jpg" width="200" height="200" class="thumbnail" style="margin-left: 20px;margin-bottom: 0;" />
+                                            <img src="/images/1.png"  width="200" height="200" class="thumbnail" style="margin-left: 20px;margin-bottom: 0;" />
                                         </div>
                                         <div class="col-sm-5">
                                             <h4>
-                                                <strong>天天果园</strong>
+                                                <strong>DSPT</strong>
                                             </h4>
                                             <hr style="margin-top: 10px;margin-bottom: 10px;">
-                                            <p>水果生鲜</p>
+                                            <p>服装</p>
                                         </div>
 
                                         <div class="col-sm-4">
@@ -580,7 +571,7 @@
 			<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&c=mh_profile&a=init">
 					                <img src="http://demodaojia.ecjia.com/content/apps/merchant/statics/img/ecjia_avatar.jpg" /><br>
 	            	   		</a>
-			<h3>张三</h3>
+			<h3>{{ $user->nickname }}</h3>
                         <small class="label label-warning">店长</small>
                        	<p>好品质，好店铺！</p>
             <div class="pull-left">

@@ -16,8 +16,8 @@ class indexController extends Controller
      */
     public function index()
     {
-       return View('index');
-//        var_dump(Cookie::get());
+        $user = session('user_info');
+       return View('index')->with('user',$user);
     }
 
     /**
