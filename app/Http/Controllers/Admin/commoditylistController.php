@@ -1,13 +1,14 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-use Illuminate\Support\Facades\Cookie;
+
 use Illuminate\Http\Request;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\View\View;
 
-class indexController extends Controller
+class commoditylistController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +17,11 @@ class indexController extends Controller
      */
     public function index()
     {
+        if (empty(session('user_info'))){
+        alert('请登录!','/Admin/login','2');
+        }
         $user = session('user_info');
-       return View('index')->with('user',$user);
+        return View('commoditylist')->with('user',$user);
     }
 
     /**

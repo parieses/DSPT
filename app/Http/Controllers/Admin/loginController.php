@@ -11,7 +11,7 @@ class loginController extends Controller
 {
     public function login(){
         $data = Input::get();
-        print_r($data);
+
         $arr=['_token'=>'登录环境不安全','username'=>'用户名不能为空','pwd'=>'密码不能为空'];
         foreach ($data as $k=>$v){
             if(empty($v)){
@@ -26,13 +26,11 @@ class loginController extends Controller
             alert('密码错误!','/Admin/login','2');
         }
         session(array('user_info'=>$users[0]));
-//        Cookie::queue('user_info',$users);
+        DB::update('update DS_Admin set Ip = "'.$_SERVER['REMOTE_ADDR'].'" where number ='.$data['username']);
         return Redirect::to('/Admin/index');
-//        return redirect()->action('indexController@index');
     }
     public function logout(){
-//        $request->session()->forget('user_info');
- session()->flush();
+        session()->flush();
         return Redirect::to('/Admin/login');
     }
 }
