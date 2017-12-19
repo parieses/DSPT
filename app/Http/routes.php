@@ -27,3 +27,4 @@ Route::get('Admin/commodityadd',function () {
     }
     return view('login');
 });
+//////////////////////////////////
