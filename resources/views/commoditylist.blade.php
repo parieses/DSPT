@@ -90,7 +90,7 @@
                         <div class="panel-body panel-body-small">
                             <ul class="nav nav-pills pull-left">
                                 <li class="active">
-                                    <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&type='''>全部
+                                    <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&type='>全部
                                     <span class="badge badge-info">13</span>
                                     </a>
                                 </li>
