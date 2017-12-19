@@ -12,7 +12,11 @@
 */
 
 Route::get('Admin/login', function () {
+    if (!empty(session('user_info'))){
+        alert('已登录','/Admin/index','1');
+    }
     return view('login');
 });
-
+Route::get('Admin/logout','Admin\loginController@logout');
 Route::post('Admin/login','Admin\loginController@login');
+Route::get('Admin/index','Admin\indexController@index');

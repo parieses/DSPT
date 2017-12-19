@@ -9,10 +9,15 @@
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //For-Mobile-Apps -->
     <!-- Style --> <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+    <style>
+        input::-webkit-input-placeholder {
+          color: #fff9f7;
+   }
+    </style>
 </head>
 <body>
 <div class="container">
-    <h1>DS</h1>
+    <h1>DSPT</h1>
     <div class="contact-form">
         <div class="profile-pic">
             <img src="/images/1.png" alt="User Icon"/>
@@ -21,7 +26,7 @@
             <form method="post" action="/Admin/login" id="form" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <input type="text" id="user" class="user" name="username"  placeholder="用户名" />
-                <input id="pwd" type="password" name="pwd" class="pass" value="pwd"   />
+                <input id="pwd" type="password" name="pwd" class="pass" placeholder="密码"/>
                 <p><a href="#">忘记密码?</a></p>
             </form>
         </div>
@@ -38,15 +43,12 @@
 <script>
     var submits = document.getElementById('submit');
     var form = document.getElementById('form');
-
     submits.onclick = function () {
-        var user = document.getElementById('user').value;
-        var pwd = document.getElementById('pwd').value;
-        if (user == "" ) {
+        if ($('#user').val() == "" ) {
             layer.msg('用户名不能为空!', {icon: 2});
             return false;
         }
-        if (pwd == "" ) {
+        if ($('#pwd').val() == "" ) {
             layer.msg('密码不能为空!', {icon: 2});
             return false;
         }
