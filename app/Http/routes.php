@@ -12,7 +12,8 @@
 */
 
 Route::get('Admin/login', function () {
-    if (!empty(session('user_info'))){
+    if (!empty(session(''))){
+        session(null);
         alert('已登录','/Admin/index','1');
     }
     return view('login');
