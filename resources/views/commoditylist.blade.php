@@ -6,12 +6,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品列表 - DSPT</title>
+    <title>商品列表 - 天天果园</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="ecjia team" />
-    @include('public.js')
+@include('public.js')
+    <link rel="stylesheet" id="googleapis-fonts-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/fonts/fonts.googleapis.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="bootstrap-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap.min.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="bootstrap-reset-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap-reset.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-merchant-ui-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia-merchant.ui.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-font-awesome-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/font-awesome.min.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-owl-carousel-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.carousel.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-owl-theme-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.theme.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-owl-transitions-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.transitions.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-table-responsive-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/table-responsive.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-jquery-easy-pie-chart-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-function-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia.function.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-page-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/page.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-chosen-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="goods-colorpicker-style-css"  href="http://demodaojia.ecjia.com/content/system/statics/lib/colorpicker/css/colorpicker.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="uniform-aristo-css"  href="http://demodaojia.ecjia.com/content/system/statics/lib/uniform/Aristo/uniform.aristo.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="jquery-colorbox-css"  href="http://demodaojia.ecjia.com/content/system/statics/lib/colorbox/colorbox.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="ecjia-mh-editable-css-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/x-editable/bootstrap-editable/css/bootstrap-editable.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="datepicker-css"  href="http://demodaojia.ecjia.com/content/system/statics/lib/datepicker/datepicker.css?ver=1.24" type="text/css" media="all" />
+    <link rel="stylesheet" id="goods-css"  href="http://demodaojia.ecjia.com/content/apps/goods/statics/styles/goods.css?ver=1.24" type="text/css" media="all" />
 
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-1.11.1.min.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/bootstrap.min.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-pjax.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/ecjia-js/ecjia.js?ver=1.24"></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var admin_lang = {"display_sidebar":"\u663e\u793a\u4fa7\u8fb9\u680f","hide_sidebar":"\u9690\u85cf\u4fa7\u8fb9\u680f","search_check":"\u8bf7\u5148\u8f93\u5165\u641c\u7d22\u4fe1\u606f","search_no_message":"\u672a\u641c\u7d22\u5230\u5bfc\u822a\u4fe1\u606f","success":"\u64cd\u4f5c\u6210\u529f","fail":"\u64cd\u4f5c\u5931\u8d25","confirm_jump":"\u662f\u5426\u786e\u8ba4\u8df3\u8f6c\uff1f","ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","request_failed":"\u8bf7\u6c42\u5931\u8d25\uff0c\u9519\u8bef\u7f16\u53f7\uff1a","error_msg":"\uff0c\u9519\u8bef\u4fe1\u606f\uff1a"};
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant-ui.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system//statics/lib/colorpicker/bootstrap-colorpicker.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/jquery-ui/jquery-ui.min.js?ver=1.24"></script>
+    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/datepicker/bootstrap-datepicker.min.js?ver=1.24"></script>
 
 
 
@@ -21,7 +54,10 @@
 <body>
 
 <div id="wrapper">
-    @include('public.html')
+
+@include('public.html')
+
+
 
     <div class="container">
         <div id="main" class="main_content">
@@ -49,17 +85,17 @@
                                 <div class="form-group ecjiaf-tac">
                                     <div>
                                         <select class="noselect w200 ecjiaf-ib form-control" size="15" name="target_cat">
-                                            <option value="4" >热带水果</option>
-                                            <option value="12" >时令水果</option>
                                             <option value="2" >国产水果</option>
-                                            <option value="10" style="padding-left:20px">苹果</option>
-                                            <option value="14" style="padding-left:20px">柑桔橙柚</option>
                                             <option value="11" style="padding-left:20px">梨</option>
                                             <option value="13" style="padding-left:20px">猕猴桃</option>
                                             <option value="65" style="padding-left:20px">李</option>
+                                            <option value="10" style="padding-left:20px">苹果</option>
+                                            <option value="14" style="padding-left:20px">柑桔橙柚</option>
                                             <option value="8" >进口水果</option>
                                             <option value="64" style="padding-left:20px">葡萄</option>
                                             <option value="63" >礼品果篮</option>
+                                            <option value="4" >热带水果</option>
+                                            <option value="12" >时令水果</option>
                                         </select>
                                     </div>
                                 </div>
@@ -77,7 +113,7 @@
                     <h2>商品列表</h2>
                 </div>
                 <div class="pull-right">
-                    <a href="/Admin/commodityadd" class="btn btn-primary data-pjax">
+                    <a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=add" class="btn btn-primary data-pjax">
                         <i class="fa fa-plus"></i> 添加新商品
                     </a>
                 </div>
@@ -91,19 +127,19 @@
                             <ul class="nav nav-pills pull-left">
                                 <li class="active">
                                     <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&type='''>全部
-                                    <span class="badge badge-info">13</span>
+                                    <span class="badge badge-info">12</span>
                                     </a>
                                 </li>
 
                                 <li class="">
                                     <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&type=1'>已上架
-                                        <span class="badge badge-info use-plugins-num">3</span>
+                                        <span class="badge badge-info use-plugins-num">12</span>
                                     </a>
                                 </li>
 
                                 <li class="">
                                     <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&type=2'>未上架
-                                        <span class="badge badge-info unuse-plugins-num">10</span>
+                                        <span class="badge badge-info unuse-plugins-num">0</span>
                                     </a>
                                 </li>
                             </ul>
@@ -147,17 +183,17 @@
                                     <div class="form-group">
                                         <select class="w130" name="cat_id">
                                             <option value="0">所有分类</option>
-                                            <option value="4"  >热带水果</option>
-                                            <option value="12"  >时令水果</option>
                                             <option value="2"  >国产水果</option>
-                                            <option value="10"  style="padding-left:20px">苹果</option>
-                                            <option value="14"  style="padding-left:20px">柑桔橙柚</option>
                                             <option value="11"  style="padding-left:20px">梨</option>
                                             <option value="13"  style="padding-left:20px">猕猴桃</option>
                                             <option value="65"  style="padding-left:20px">李</option>
+                                            <option value="10"  style="padding-left:20px">苹果</option>
+                                            <option value="14"  style="padding-left:20px">柑桔橙柚</option>
                                             <option value="8"  >进口水果</option>
                                             <option value="64"  style="padding-left:20px">葡萄</option>
                                             <option value="63"  >礼品果篮</option>
+                                            <option value="4"  >热带水果</option>
+                                            <option value="12"  >时令水果</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
@@ -242,7 +278,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="617"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="617"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="617"></i>
@@ -303,7 +339,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="468"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="468"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="468"></i>
@@ -364,7 +400,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="466"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="466"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="466"></i>
@@ -425,7 +461,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="461"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="461"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="461"></i>
@@ -486,7 +522,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="460"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="460"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="460"></i>
@@ -547,7 +583,7 @@
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="433"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="433"></i>
                                         </td>
                                         <td align="center">
                                             <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="433"></i>
@@ -755,60 +791,60 @@
                                     <tr>
                                         <td class="check-list">
                                             <div class="check-item">
-                                                <input id="check_1104" class="checkbox" type="checkbox" name="checkboxes[]" value="1104"/>
-                                                <label for="check_1104"></label>
+                                                <input id="check_1103" class="checkbox" type="checkbox" name="checkboxes[]" value="1103"/>
+                                                <label for="check_1103"></label>
                                             </div>
                                         </td>
                                         <td>
-                                            <a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit&goods_id=1104'>
-                                                <img class="w80 h80" alt="fsdfsdf" src="http://demodaojia.ecjia.com/content/system/statics/images/nopic.png">
+                                            <a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit&goods_id=1103'>
+                                                <img class="w80 h80" alt="温馨祝福鲜果礼盒" src="http://demodaojia.ecjia.com/content/uploads/images/201610/thumb_img/1103_G_1477698555092.jpg">
                                             </a>
                                         </td>
                                         <td class="hide-edit-area ">
-                                            <span class="cursor_pointer ecjiaf-pre ecjiaf-wsn" data-text="textarea" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_name" data-name="goods_edit_name" data-pk="1104" data-title="请输入商品名称">fsdfsdf</span>
+                                            <span class="cursor_pointer ecjiaf-pre ecjiaf-wsn" data-text="textarea" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_name" data-name="goods_edit_name" data-pk="1103" data-title="请输入商品名称">温馨祝福鲜果礼盒</span>
                                             <br/>
                                             <div class="edit-list">
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit&goods_id=1104'>编辑</a>&nbsp;|&nbsp;
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_desc&goods_id=1104'>商品描述</a>&nbsp;|&nbsp;
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_attr&goods_id=1104'>商品属性</a>&nbsp;|&nbsp;
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_gallery&a=init&goods_id=1104'>商品相册</a>&nbsp;|&nbsp;
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_goods&goods_id=1104'>关联商品</a>&nbsp;|&nbsp;
-                                                <!-- 										<a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_parts&goods_id=1104'>关联配件</a>&nbsp;|&nbsp; -->
-                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_article&goods_id=1104'>关联文章</a>&nbsp;|&nbsp;
-                                                <a target="_blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=preview&id=1104'>预览</a>&nbsp;|&nbsp;
-                                                <a class="ajaxremove ecjiafc-red" data-toggle="ajaxremove" data-msg="您确定要把该商品放入回收站吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=remove&id=1104'>删除</a>
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit&goods_id=1103'>编辑</a>&nbsp;|&nbsp;
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_desc&goods_id=1103'>商品描述</a>&nbsp;|&nbsp;
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_attr&goods_id=1103'>商品属性</a>&nbsp;|&nbsp;
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_gallery&a=init&goods_id=1103'>商品相册</a>&nbsp;|&nbsp;
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_goods&goods_id=1103'>关联商品</a>&nbsp;|&nbsp;
+                                                <!-- 										<a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_parts&goods_id=1103'>关联配件</a>&nbsp;|&nbsp; -->
+                                                <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_link_article&goods_id=1103'>关联文章</a>&nbsp;|&nbsp;
+                                                <a target="_blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=preview&id=1103'>预览</a>&nbsp;|&nbsp;
+                                                <a class="ajaxremove ecjiafc-red" data-toggle="ajaxremove" data-msg="您确定要把该商品放入回收站吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=remove&id=1103'>删除</a>
                                             </div>
                                         </td>
 
                                         <td>
-									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_sn" data-name="goods_edit_goods_sn" data-pk="1104" data-title="请输入商品货号">
-										ECS001104
+									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_sn" data-name="goods_edit_goods_sn" data-pk="1103" data-title="请输入商品货号">
+										2160723102
 									</span>
                                         </td>
                                         <td align="center">
-									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_price" data-name="goods_price" data-pk="1104" data-title="请输入商品价格">
-										0.00
+									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_price" data-name="goods_price" data-pk="1103" data-title="请输入商品价格">
+										268.00
 									</span>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="1104"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggle_on_sale" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_on_sale" refresh-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init" data-id="1103"></i>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="1104"></i>
+                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_best" data-id="1103"></i>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_new" data-id="1104"></i>
+                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_new" data-id="1103"></i>
                                         </td>
                                         <td align="center">
-                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_hot" data-id="1104"></i>
+                                            <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=toggle_hot" data-id="1103"></i>
                                         </td>
                                         <td align="center">
-									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_number" data-name="goods_number" data-pk="1104" data-title="请输入库存数量">
+									<span class="cursor_pointer" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_goods_number" data-name="goods_number" data-pk="1103" data-title="请输入库存数量">
 										1000
 									</span>
                                         </td>
                                         <td align="center">
-									<span class="cursor_pointer" data-trigger="editable" data-placement="left" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_sort_order" data-name="sort_order" data-pk="1104" data-title="请输入排序序号">
+									<span class="cursor_pointer" data-trigger="editable" data-placement="left" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=edit_sort_order" data-name="sort_order" data-pk="1103" data-title="请输入排序序号">
 										100
 									</span>
                                         </td>
@@ -818,7 +854,7 @@
                             </section>
                             <div class="page">
                                 <div class="pull-left">
-                                    总计  <span id="totalRecords">13</span>
+                                    总计  <span id="totalRecords">12</span>
                                     条记录，分为 <span id="totalPages">2 页</span>
                                 </div>
                                 <div class="pull-right">
@@ -847,12 +883,60 @@
         </div>
     </div>
 
+
+
+
+
     <!-- <footer> -->
     <!--     <div class="container"> -->
 
     <!--     </div> -->
     <!-- </footer> -->
-    @include('public.foot')
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-widget">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+	                    <span class="sosmed-footer">
+	                    		                        <a target="__blank" href="http://weibo.com/ECMBT"><i class="fa fa-weibo" title="新浪微博"></i></a>
+
+
+	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-weixin" data-toggle="popover" data-placement="top" data-id="shop_wechat_qrcode" title="打开手机微信扫一扫"></i></a>
+
+
+	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-apple" data-toggle="popover" data-placement="top" data-id="mobile_iphone_qrcode" title="打开手机扫描二维码下载"></i></a>
+
+	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-android" data-toggle="popover" data-placement="top" data-id="mobile_android_qrcode" title="打开手机扫描二维码下载"></i></a>
+	                    		                    </span>
+
+                        <div class="hide" id="content_shop_wechat_qrcode">
+                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/ecjia-intro/shop_wechat_qrcode.jpg"></div>
+                        </div>
+
+                        <div class="hide" id="content_mobile_iphone_qrcode">
+                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
+                        </div>
+
+                        <div class="hide" id="content_mobile_android_qrcode">
+                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="footer-bottom-links">
+                            Copyright &copy; 2017 ECJia到家 <a href="http://www.miibeian.gov.cn" target="_blank">沪ICP备20170120号</a>                    </p>
+                        <p class="footer-bottom-links">
+                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=101'>公司简介</a>
+                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=104'>联系我们</a>
+                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=107'>使用条款</a>
+                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=108'>隐私协议</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
         $("[data-toggle='popover']").popover({
             trigger: 'hover',
@@ -883,7 +967,34 @@
 
 
 
-
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.customSelect.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.dcjqaccordion.2.7.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.nicescroll.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.scrollTo.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.sparkline.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.stepy.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.tagsinput.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.validate.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-actual.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-migrate.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.quicksearch.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/owl.carousel.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/respond.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/sparkline-chart.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.jquery.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/Chart/Chart.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-cookie.min.js?ver=1"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/json2.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/ui/jquery-ui-totop.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-imagesloaded.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system//statics/lib/dropper-upload/jquery.fs.dropper.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/multi-select/js/jquery.quicksearch.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/ecjia-js/ecjia.region.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/smoke/smoke.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/jquery-form/jquery.form.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/colorbox/jquery.colorbox.min.js?ver=1.24"></script>
+<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/x-editable/bootstrap-editable/js/bootstrap-editable.min.js?ver=1.24"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var js_lang = {"cat_name_required":"\u8bf7\u8f93\u5165\u7c7b\u578b\u540d\u79f0","attr_name_required":"\u8bf7\u8f93\u5165\u5c5e\u6027\u540d\u79f0","cat_id_select":"\u8bf7\u9009\u62e9\u6240\u5c5e\u5546\u54c1\u7c7b\u578b","old_key_required":"\u8bf7\u8f93\u5165\u539f\u52a0\u5bc6\u4e32\uff01","new_key_required":"\u8bf7\u8f93\u5165\u65b0\u52a0\u5bc6\u4e32\uff01","separator_required":"\u5206\u9694\u7b26\u4e0d\u80fd\u4e3a\u7a7a\uff01","brand_name_required":"\u8bf7\u8f93\u5165\u54c1\u724c\u540d\u79f0","select_goods_attr":"\u8bf7\u9009\u62e9\u7b5b\u9009\u5c5e\u6027","category_name_required":"\u8bf7\u8f93\u5165\u5206\u7c7b\u540d\u79f0","add_new_mate":"\u6dfb\u52a0\u65b0\u680f\u76ee","back_select_mate":"\u8fd4\u56de\u9009\u62e9\u680f\u76ee","transfer_confirm":"\u60a8\u786e\u5b9a\u8f6c\u79fb\u5206\u7c7b\u4e0b\u7684\u5546\u54c1\u5417\uff1f","ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","choose_select_goods":"\u8bf7\u9009\u62e9\u9700\u8981\u8f6c\u79fb\u7684\u5546\u54c1","give_up_confirm":"\u60a8\u786e\u5b9a\u653e\u5f03\u5f53\u524d\u9875\u9762\u7f16\u8f91\u7684\u5185\u5bb9\u5417\uff1f","not_calculate":"\u672a\u8ba1\u7b97","goods_name_required":"\u8bf7\u8f93\u5165\u5546\u54c1\u540d\u79f0\uff01","shop_price_required":"\u8bf7\u8f93\u5165\u5546\u54c1\u4ef7\u683c\uff01","shop_price_limit":"\u8bf7\u8f93\u5165\u6b63\u786e\u4ef7\u683c\u683c\u5f0f\uff01","goods_number_required":"\u8bf7\u8f93\u5165\u5546\u54c1\u5e93\u5b58\uff01","goods_number_limit":"\u5546\u54c1\u5e93\u5b58\u6700\u5c0f\u53ea\u80fd\u4e3a0\uff01","category_id_select":"\u8bf7\u9009\u62e9\u5546\u54c1\u5206\u7c7b\uff01","product_sn_required":"\u8bf7\u8f93\u5165\u8d27\u53f7","product_number_required":"\u8bf7\u8f93\u5165\u5e93\u5b58","select_goods_empty":"\u672a\u641c\u7d22\u5230\u5546\u54c1\u4fe1\u606f","change_connect":"\u5207\u6362\u5173\u8054","single":"\u5355\u5411\u5173\u8054","double":"\u53cc\u5411\u5173\u8054","modify_price":"\u4fee\u6539\u4ef7\u683c","save":"\u4fdd\u5b58","price":"\u4ef7\u683c","select_article_empty":"\u672a\u641c\u7d22\u5230\u6587\u7ae0\u4fe1\u606f","drag_here_upload":"\u5c06\u56fe\u7247\u62d6\u52a8\u81f3\u6b64\u5904\u4e0a\u4f20","select_operate_info":"\u8bf7\u5148\u9009\u62e9\u9700\u8981\u64cd\u4f5c\u7684\u9009\u9879","card_sn_required":"\u8bf7\u8f93\u5165\u5361\u7247\u5e8f\u53f7","card_password_required":"\u8bf7\u8f93\u5165\u5361\u7247\u5bc6\u7801","pls_upload_file":"\u8bf7\u4e0a\u4f20\u6587\u4ef6","pls_select":"\u8bf7\u9009\u62e9...","brand_name_empty":"\u54c1\u724c\u540d\u79f0\u4e0d\u80fd\u4e3a\u7a7a","cat_name_empty":"\u5206\u7c7b\u540d\u79f0\u4e0d\u80fd\u4e3a\u7a7a","add_goods_ok":"\u6dfb\u52a0\u5546\u54c1\u6210\u529f","spec_name_required":"\u8bf7\u8f93\u5165\u89c4\u683c\u540d\u79f0"};
@@ -899,6 +1010,9 @@
 <script type="text/javascript">
     ecjia.merchant.goods_list.init();
 </script>
+
+
+
 <div class="pjaxLoadding"><i class="peg"></i></div>
 </body>
 </html>

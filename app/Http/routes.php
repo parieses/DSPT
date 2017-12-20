@@ -29,6 +29,14 @@ Route::get('Admin/commodityadd',function () {
     $user = session('user_info');
     return view('commodityadd')->with('user',$user);
 });
+Route::get('/Admin/commodityclassification',function () {
+    if (empty(session('user_info'))){
+        alert('请登录!','/Admin/index','1');
+    }
+    $user = session('user_info');
+    return view('commodityclassification')->with('user',$user);
+});
+
 //管理员信息
 Route::get('Admin/user',function () {
     if (empty(session('user_info'))){
