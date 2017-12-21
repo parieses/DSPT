@@ -4,7 +4,7 @@
         <div class="container">
 
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=dashboard&amp;a=init"><i class="fa fa-cubes"></i> <strong>DSPT</strong></a>
+                <a class="navbar-brand" href="/Admin/index"><i class="fa fa-cubes"></i> <strong>DSPT</strong></a>
             </div>
 
             <ul class="nav navbar-nav navbar-left top-menu">
@@ -43,7 +43,7 @@
                         <li class="search_query_none isShow"><a href="javascript:;">请先输入搜索信息</a></li>
                         <li class="" style="display: none;"><a href="/Admin/commoditylist"><i class="fa fa-list-alt"></i> 商品列表</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=add"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
-                        <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_spec&amp;a=init"><i class="fa fa-navicon"></i> 商品规格</a></li>
+
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=init"><i class="fa fa-th-list"></i> 商品分类</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=trash"><i class="fa fa-recycle"></i> 商品回收站</a></li>
                         <li class="" style="display: none;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&amp;c=merchant&amp;a=init&amp;date=today"><i class="fa fa-list-alt"></i> 当天订单</a></li>
@@ -142,9 +142,8 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="/Admin/commoditylist"><i class="fa fa-list-alt"></i> 商品列表</a></li>
                                 <li><a href="/Admin/commodityadd"><i class="fa fa-plus-square-o"></i> 添加新商品</a></li>
-                          <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_spec&amp;a=init"><i class="fa fa-navicon"></i> 商品规格</a></li>
                                 <li><a href="/Admin/commodityclassification"><i class="fa fa-th-list"></i> 商品分类</a></li>
-                                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=trash"><i class="fa fa-recycle"></i> 商品回收站</a></li>
+                                <li><a href="/Admin/commodityrecycle"><i class="fa fa-recycle"></i> 商品回收站</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

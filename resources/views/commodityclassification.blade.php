@@ -1,54 +1,53 @@
-
 <!DOCTYPE html>
-<html lang="zh" class="pjaxLoadding-busy">
-<head>
-    <meta name="Generator" content="ECJIA 1.24" />
-    <meta charset="UTF-8" />
+<!-- saved from url=(0081)http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=init -->
+<html lang="zh" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Generator" content="ECJIA 1.24">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品分类 - 天天果园</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="ecjia team" />
-    @include('public.js')
+    <title>商品分类 - DSPT</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="ecjia team">
+@include('public.js')
+    <![endif]-->
+    <link rel="stylesheet" id="googleapis-fonts-css" href="/static/fonts.googleapis.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="/static/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-reset-css" href="/static/bootstrap-reset.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-merchant-ui-css" href="/static/ecjia-merchant.ui.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-font-awesome-css" href="/static/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-carousel-css" href="/static/owl.carousel.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-theme-css" href="/static/owl.theme.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-transitions-css" href="/static/owl.transitions.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-table-responsive-css" href="/static/table-responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-jquery-easy-pie-chart-css" href="/static/jquery.easy-pie-chart.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-function-css" href="/static/ecjia.function.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-page-css" href="/static/page.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-chosen-css" href="/static/chosen.css" type="text/css" media="all">
+    <link rel="stylesheet" id="uniform-aristo-css" href="/static/uniform.aristo.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-fileupload-css" href="/static/bootstrap-fileupload.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-editable-css-css" href="/static/bootstrap-editable.css" type="text/css" media="">
 
-    <link rel="stylesheet" id="googleapis-fonts-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/fonts/fonts.googleapis.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap.min.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-reset-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap-reset.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-merchant-ui-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia-merchant.ui.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-font-awesome-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/font-awesome.min.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-carousel-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.carousel.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-theme-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.theme.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-transitions-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.transitions.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-table-responsive-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/table-responsive.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-jquery-easy-pie-chart-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-function-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia.function.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-page-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/page.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-chosen-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="uniform-aristo-css"  href="http://demodaojia.ecjia.com/content/system/statics/lib/uniform/Aristo/uniform.aristo.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-fileupload-css"  href="http://demodaojia.ecjia.com/content/apps/goods/statics/assets/bootstrap-fileupload/bootstrap-fileupload.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-editable-css-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/x-editable/bootstrap-editable/css/bootstrap-editable.css?ver=1.24" type="text/css" media="" />
-
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-1.11.1.min.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/bootstrap.min.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-pjax.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/ecjia-js/ecjia.js?ver=1.24"></script>
-    <script type='text/javascript'>
+    <script src="https://hm.baidu.com/hm.js?45572e750ba4de1ede0e776212b5f6cd"></script><script type="text/javascript" src="/static/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-pjax.js"></script>
+    <script type="text/javascript" src="/static/ecjia.js"></script>
+    <script type="text/javascript">
         /* <![CDATA[ */
         var admin_lang = {"display_sidebar":"\u663e\u793a\u4fa7\u8fb9\u680f","hide_sidebar":"\u9690\u85cf\u4fa7\u8fb9\u680f","search_check":"\u8bf7\u5148\u8f93\u5165\u641c\u7d22\u4fe1\u606f","search_no_message":"\u672a\u641c\u7d22\u5230\u5bfc\u822a\u4fe1\u606f","success":"\u64cd\u4f5c\u6210\u529f","fail":"\u64cd\u4f5c\u5931\u8d25","confirm_jump":"\u662f\u5426\u786e\u8ba4\u8df3\u8f6c\uff1f","ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","request_failed":"\u8bf7\u6c42\u5931\u8d25\uff0c\u9519\u8bef\u7f16\u53f7\uff1a","error_msg":"\uff0c\u9519\u8bef\u4fe1\u606f\uff1a"};
         /* ]]> */
     </script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant-ui.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/jasny-bootstrap/js/bootstrap-placeholder.min.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/goods/statics/js/merchant_goods_category.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/x-editable/bootstrap-editable/js/bootstrap-editable.min.js?ver=1.24"></script>
+    <script type="text/javascript" src="/static/ecjia-merchant.js"></script>
+    <script type="text/javascript" src="/static/ecjia-merchant-ui.js"></script>
+    <script type="text/javascript" src="/static/bootstrap-placeholder.min.js"></script>
+    <script type="text/javascript" src="/static/merchant_goods_category.js"></script>
+    <script type="text/javascript" src="/static/bootstrap-editable.min.js"></script>
 
 
 
 
 
-</head>
+    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style></head>
 <body>
 
 <div id="wrapper">
@@ -59,12 +58,12 @@
 
 
     <div class="container">
-        <div id="main" class="main_content">
+        <div id="main" class="main_content" style="opacity: 1;">
 
 
             <ol class="breadcrumb">
-                <li><a href="/">管理主页</a></li>
-                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init">商品管理</a></li>
+                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=dashboard&amp;a=init">管理主页</a></li>
+                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init">商品管理</a></li>
                 <li class="active">商品分类</li>
             </ol>
 
@@ -78,9 +77,8 @@
                         商品分类		</h2>
                 </div>
                 <div class="pull-right">
-                    <a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=add" class="btn btn-primary data-pjax"><i class="fa fa-plus"></i> 添加商品分类 </a>
+                    <a href="/Admin/commodityclassificationadd" class="btn btn-primary data-pjax"><i class="fa fa-plus"></i> 添加商品分类 </a>
 
-                    <a class="btn btn-primary data-pjax" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=move" id="sticky_a"><i class="fa fa-exchange"></i> 转移商品 </a>
 
                 </div>
                 <div class="clearfix"></div>
@@ -100,205 +98,205 @@
                                         <th class="w100">操作</th>
                                     </tr>
                                     </thead>
-                                    <tr class="0" id="0_4">
+                                    <tbody><tr class="0" id="0_4">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_4" style="margin-left:0em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=4'>热带水果</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_4" style="margin-left:0em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=4">热带水果</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="4" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="4" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="4"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="4"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=4' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=4'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=4" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=4"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="0" id="0_12">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_12" style="margin-left:0em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=12'>时令水果</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_12" style="margin-left:0em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=12">时令水果</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="12" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="12" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="12"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="12"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=12' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=12'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=12" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=12"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="0" id="0_2">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_2" style="margin-left:0em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=2'>国产水果</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_2" style="margin-left:0em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=2">国产水果</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="2" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="2" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="2"></i>
+                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="2"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=2' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=2'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=2" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=2"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_10">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_10" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=10'>苹果</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_10" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=10">苹果</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="10" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="10" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="10"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="10"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=10' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=10'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=10" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=10"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_14">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_14" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=14'>柑桔橙柚</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_14" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=14">柑桔橙柚</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="14" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="14" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="14"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="14"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=14' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=14'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=14" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=14"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_11">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_11" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=11'>梨</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_11" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=11">梨</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="11" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="11" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="11"></i>
+                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="11"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=11' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=11'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=11" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=11"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_13">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_13" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=13'>猕猴桃</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_13" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=13">猕猴桃</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="13" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="13" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="13"></i>
+                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="13"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=13' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=13'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=13" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=13"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_65">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_65" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=65'>李</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_65" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=65">李</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="65" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="65" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="65"></i>
+                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="65"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=65' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=65'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=65" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=65"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="0" id="0_8">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_8" style="margin-left:0em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=8'>进口水果</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_8" style="margin-left:0em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=8">进口水果</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="8" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="8" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="8"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="8"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=8' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=8'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=8" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=8"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="1" id="1_64">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_64" style="margin-left:1em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=64'>葡萄</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_64" style="margin-left:1em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=64">葡萄</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="64" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="64" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="64"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="64"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=64' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=64'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=64" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=64"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
                                     <tr class="0" id="0_63">
                                         <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_63" style="margin-left:0em" onclick="rowClicked(this)" /></i>
-                                            <span><a href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=merchant&a=init&cat_id=63'>礼品果篮</a></span>
+                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_63" style="margin-left:0em" onclick="rowClicked(this)"></i>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=63">礼品果篮</a></span>
                                         </td>
                                         <td>
-								<span class="cursor_pointer" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit_sort_order" data-name="sort_order" data-pk="63" data-title="请输入排序序号">
+								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="63" data-title="请输入排序序号"> 
 									50
 								</span>
                                         </td>
                                         <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=toggle_is_show" data-id="63"></i>
+                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="63"></i>
                                         </td>
                                         <td>
-                                            <a class="data-pjax no-underline" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=edit&cat_id=63' title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&c=mh_category&a=remove&id=63'><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=63" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=63"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
-                                </table>
+                                    </tbody></table>
                             </section>
                         </div>
                     </div>
@@ -318,51 +316,7 @@
 
     <!--     </div> -->
     <!-- </footer> -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="footer-bottom-widget">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>
-	                    <span class="sosmed-footer">
-	                    		                        <a target="__blank" href="http://weibo.com/ECMBT"><i class="fa fa-weibo" title="新浪微博"></i></a>
-
-
-	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-weixin" data-toggle="popover" data-placement="top" data-id="shop_wechat_qrcode" title="打开手机微信扫一扫"></i></a>
-
-
-	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-apple" data-toggle="popover" data-placement="top" data-id="mobile_iphone_qrcode" title="打开手机扫描二维码下载"></i></a>
-
-	                        	                        <a href="javascript:;" style="color:#333333;"><i class="fa fa-android" data-toggle="popover" data-placement="top" data-id="mobile_android_qrcode" title="打开手机扫描二维码下载"></i></a>
-	                    		                    </span>
-
-                        <div class="hide" id="content_shop_wechat_qrcode">
-                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/ecjia-intro/shop_wechat_qrcode.jpg"></div>
-                        </div>
-
-                        <div class="hide" id="content_mobile_iphone_qrcode">
-                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
-                        </div>
-
-                        <div class="hide" id="content_mobile_android_qrcode">
-                            <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
-                        </div>
-                        </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="footer-bottom-links">
-                            Copyright &copy; 2017 ECJia到家 <a href="http://www.miibeian.gov.cn" target="_blank">沪ICP备20170120号</a>                    </p>
-                        <p class="footer-bottom-links">
-                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=101'>公司简介</a>
-                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=104'>联系我们</a>
-                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=107'>使用条款</a>
-                            <a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shopinfo&id=108'>隐私协议</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+@include('public.foot')
     <script type="text/javascript">
         $("[data-toggle='popover']").popover({
             trigger: 'hover',
@@ -393,30 +347,30 @@
 
 
 
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.customSelect.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.dcjqaccordion.2.7.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.nicescroll.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.scrollTo.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.sparkline.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.stepy.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.tagsinput.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.validate.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-actual.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-migrate.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.quicksearch.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/owl.carousel.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/respond.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/sparkline-chart.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.jquery.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/Chart/Chart.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-cookie.min.js?ver=1"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/json2.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/ui/jquery-ui-totop.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/validation/jquery.validate.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/jquery-form/jquery.form.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/smoke/smoke.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/goods/statics/assets/bootstrap-fileupload/bootstrap-fileupload.js?ver=1.24"></script>
+<script type="text/javascript" src="/static/jquery.customSelect.min.js"></script>
+<script type="text/javascript" src="/static/jquery.dcjqaccordion.2.7.min.js"></script>
+<script type="text/javascript" src="/static/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="/static/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="/static/jquery.sparkline.js"></script>
+<script type="text/javascript" src="/static/jquery.stepy.js"></script>
+<script type="text/javascript" src="/static/jquery.tagsinput.js"></script>
+<script type="text/javascript" src="/static/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/static/jquery.easy-pie-chart.js"></script>
+<script type="text/javascript" src="/static/jquery-actual.min.js"></script>
+<script type="text/javascript" src="/static/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="/static/jquery.quicksearch.js"></script>
+<script type="text/javascript" src="/static/owl.carousel.js"></script>
+<script type="text/javascript" src="/static/respond.min.js"></script>
+<script type="text/javascript" src="/static/sparkline-chart.js"></script>
+<script type="text/javascript" src="/static/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="/static/Chart.min.js"></script>
+<script type="text/javascript" src="/static/jquery-cookie.min.js"></script>
+<script type="text/javascript" src="/static/json2.js"></script>
+<script type="text/javascript" src="/static/jquery-ui-totop.min.js"></script>
+<script type="text/javascript" src="/static/jquery.validate.min(1).js"></script>
+<script type="text/javascript" src="/static/jquery.form.min.js"></script>
+<script type="text/javascript" src="/static/smoke.min.js"></script>
+<script type="text/javascript" src="/static/bootstrap-fileupload.js"></script>
 
 
 
@@ -424,5 +378,6 @@
 
 
 <div class="pjaxLoadding"><i class="peg"></i></div>
-</body>
-</html>
+
+
+<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=init#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a></body></html>

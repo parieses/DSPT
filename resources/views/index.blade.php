@@ -1,49 +1,50 @@
-
 <!DOCTYPE html>
-<html lang="zh" class="pjaxLoadding-busy">
-<head>
-    <meta name="Generator" content="ECJIA 1.24" />
-    <meta charset="UTF-8" />
+<!-- saved from url=(0082)http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=dashboard&a=init -->
+<html lang="zh" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Generator" content="ECJIA 1.24">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>仪表盘 - DSP</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="ecjia team" />
+    <title>仪表盘 - 天天果园</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="ecjia team">
+
     @include('public.js')
+    <!--[if lt IE 9]>
 
+    <![endif]-->
+    <link rel="stylesheet" id="googleapis-fonts-css" href="/static/fonts.googleapis.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="/static/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-reset-css" href="/static/bootstrap-reset.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-merchant-ui-css" href="/static/ecjia-merchant.ui.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-font-awesome-css" href="/static/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-carousel-css" href="/static/owl.carousel.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-theme-css" href="/static/owl.theme.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-owl-transitions-css" href="/static/owl.transitions.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-table-responsive-css" href="/static/table-responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-jquery-easy-pie-chart-css" href="/static/jquery.easy-pie-chart.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-function-css" href="/static/ecjia.function.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-page-css" href="/static/page.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ecjia-mh-chosen-css" href="/static/chosen.css" type="text/css" media="all">
 
-    <link rel="stylesheet" id="googleapis-fonts-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/fonts/fonts.googleapis.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap.min.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-reset-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap-reset.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-merchant-ui-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia-merchant.ui.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-font-awesome-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/font-awesome.min.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-carousel-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.carousel.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-theme-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.theme.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-owl-transitions-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/owl.transitions.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-table-responsive-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/table-responsive.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-jquery-easy-pie-chart-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-function-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/ecjia.function.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-page-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/page.css?ver=1.24" type="text/css" media="all" />
-    <link rel="stylesheet" id="ecjia-mh-chosen-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.css?ver=1.24" type="text/css" media="all" />
-
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-1.11.1.min.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/bootstrap.min.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-pjax.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/lib/ecjia-js/ecjia.js?ver=1.24"></script>
-    <script type='text/javascript'>
+    <script src="https://hm.baidu.com/hm.js?45572e750ba4de1ede0e776212b5f6cd"></script><script type="text/javascript" src="/static/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-pjax.js"></script>
+    <script type="text/javascript" src="/static/ecjia.js"></script>
+    <script type="text/javascript">
         /* <![CDATA[ */
         var admin_lang = {"display_sidebar":"\u663e\u793a\u4fa7\u8fb9\u680f","hide_sidebar":"\u9690\u85cf\u4fa7\u8fb9\u680f","search_check":"\u8bf7\u5148\u8f93\u5165\u641c\u7d22\u4fe1\u606f","search_no_message":"\u672a\u641c\u7d22\u5230\u5bfc\u822a\u4fe1\u606f","success":"\u64cd\u4f5c\u6210\u529f","fail":"\u64cd\u4f5c\u5931\u8d25","confirm_jump":"\u662f\u5426\u786e\u8ba4\u8df3\u8f6c\uff1f","ok":"\u786e\u5b9a","cancel":"\u53d6\u6d88","request_failed":"\u8bf7\u6c42\u5931\u8d25\uff0c\u9519\u8bef\u7f16\u53f7\uff1a","error_msg":"\uff0c\u9519\u8bef\u4fe1\u606f\uff1a"};
         /* ]]> */
     </script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant.js?ver=1.24"></script>
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/ecjia/ecjia-merchant-ui.js?ver=1.24"></script>
+    <script type="text/javascript" src="/static/ecjia-merchant.js"></script>
+    <script type="text/javascript" src="/static/ecjia-merchant-ui.js"></script>
 
 
 
 
 
-</head>
+    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style></head>
 <body>
 
 <div id="wrapper">
@@ -52,11 +53,11 @@
 
 
     <div class="container">
-        <div id="main" class="main_content">
+        <div id="main" class="main_content" style="opacity: 1;">
 
 
             <ol class="breadcrumb">
-                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=dashboard&a=init">管理主页</a></li>
+                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=dashboard&amp;a=init">管理主页</a></li>
                 <li class="active">仪表盘</li>
             </ol>
 
@@ -71,14 +72,14 @@
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <img src="http://demodaojia.ecjia.com/content/uploads/merchant/62/data/shop_logo/1477683254803646447.jpg" width="200" height="200" class="thumbnail" style="margin-left: 20px;margin-bottom: 0;" />
+                                            <img src="/static/1477683254803646447.jpg" width="200" height="200" class="thumbnail" style="margin-left: 20px;margin-bottom: 0;">
                                         </div>
                                         <div class="col-sm-5">
                                             <h4>
-                                                <strong>DSPT</strong>
+                                                <strong>天天果园</strong>
                                             </h4>
                                             <hr style="margin-top: 10px;margin-bottom: 10px;">
-                                            <p>服装服饰</p>
+                                            <p>水果生鲜</p>
                                         </div>
 
                                         <div class="col-sm-4">
@@ -108,7 +109,7 @@
                                 </div>
                                 <div class="value">
                                     <h1 class="count">0</h1>
-                                    <p><a target="__blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&c=mh_order_stats&a=init&start_date=2017-12-01&end_date=2017-12-20'>本月订单总额</a></p>
+                                    <p><a target="__blank" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&amp;c=mh_order_stats&amp;a=init&amp;start_date=2017-12-01&amp;end_date=2017-12-20">本月订单总额</a></p>
                                 </div>
                             </section>
                         </div>
@@ -119,7 +120,7 @@
                                 </div>
                                 <div class="value">
                                     <h1 class="count2">0</h1>
-                                    <p><a target="__blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&c=mh_order_stats&a=init&start_date=2017-12-01&end_date=2017-12-20'>本月订单数量</a></p>
+                                    <p><a target="__blank" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&amp;c=mh_order_stats&amp;a=init&amp;start_date=2017-12-01&amp;end_date=2017-12-20">本月订单数量</a></p>
                                 </div>
                             </section>
                         </div>
@@ -130,7 +131,7 @@
                                 </div>
                                 <div class="value">
                                     <h1 class="count3">0</h1>
-                                    <p><a target="__blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&c=merchant&a=init&start_time=2017-12-20 00:00:00&end_time=2017-12-20 23:59:59&composite_status=0'>今日待确认订单</a></p>
+                                    <p><a target="__blank" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&amp;c=merchant&amp;a=init&amp;start_time=2017-12-20%2000:00:00&amp;end_time=2017-12-20%2023:59:59&amp;composite_status=0">今日待确认订单</a></p>
                                 </div>
                             </section>
                         </div>
@@ -141,7 +142,7 @@
                                 </div>
                                 <div class="value">
                                     <h1 class="count4">0</h1>
-                                    <p><a target="__blank" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&c=merchant&a=init&start_time=2017-12-20 00:00:00&end_time=2017-12-20 23:59:59&composite_status=101'>今日待发货订单</a></p>
+                                    <p><a target="__blank" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=orders&amp;c=merchant&amp;a=init&amp;start_time=2017-12-20%2000:00:00&amp;end_time=2017-12-20%2023:59:59&amp;composite_status=101">今日待发货订单</a></p>
                                 </div>
                             </section>
                         </div>
@@ -152,7 +153,7 @@
                                 <h3>订单走势图</h3>
                             </div>
                             <div class="move-mod-group chart-mod1" id="widget_admin_dashboard_orderChart">
-                                <canvas id="order-chart"></canvas>
+                                <canvas id="order-chart" width="723" height="361" style="width: 723px; height: 361px;"></canvas>
                                 <style type="text/css">
                                     .order_bar_chart{
                                         min-height:440px;
@@ -273,19 +274,19 @@
     </div>
     <div class="panel-body">
         <div class="text-center" id="author">
-			<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&c=mh_profile&a=init">
-					                <img src="http://demodaojia.ecjia.com/content/apps/merchant/statics/img/ecjia_avatar.jpg" /><br>
+			<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&amp;c=mh_profile&amp;a=init">
+					                <img src="/static/ecjia_avatar.jpg"><br>
 	            	   		</a>
-			<h3>{{ $user->name }}</h3>
-                        <small class="label label-warning">{{ $user->position }}</small>
-                       	<p>{{ $user->introduce }}</p>
+			<h3>张三</h3>
+                        <small class="label label-warning">店长</small>
+                       	<p>好品质，好店铺！</p>
             <div class="pull-left">
                  <label class="">上次登录IP：</label>
-                 {{ $user->Ip }}
+                 171.8.133.164
             </div>
             <div class="pull-left">
                  <label class="">上次登录时间：</label>
-                 {{ $user->time }}
+                 2017-12-20 21:52
             </div>
 
         </div>
@@ -322,7 +323,7 @@
     <table class="table">
         <tbody>
         	        	<tr>
-        		<td><a class="data-pjax" href='http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=shop_notice&id=105'>ECJia到家火热招商中</a></td>
+        		<td><a class="data-pjax" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=merchant&amp;a=shop_notice&amp;id=105">ECJia到家火热招商中</a></td>
         		<td class="w70">10-25</td>
         	</tr>
         	        </tbody>
@@ -335,23 +336,23 @@
     <table class="table personal-task ">
         <tbody>
 						<tr>
+				<td style="text-align:left;">2017-12-20 18:51:36 管理员张三, 在河南省IP下转移 分类商品: 从热带水果转移到热带水果。</td>
+			</tr>
+						<tr>
+				<td style="text-align:left;">2017-12-20 10:48:47 管理员张三, 在广东省佛山市IP下编辑 个人资料: 。</td>
+			</tr>
+						<tr>
+				<td style="text-align:left;">2017-12-20 08:38:52 管理员张三, 在河南省郑州市IP下首页快捷菜单。</td>
+			</tr>
+						<tr>
+				<td style="text-align:left;">2017-12-20 08:38:17 管理员张三, 在河南省郑州市IP下首页轮播图。</td>
+			</tr>
+						<tr>
 				<td style="text-align:left;">2017-12-11 18:00:04 管理员张三, 在局域网IP下编辑 运费模板: 上海运费模板。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-11 17:49:29 管理员张三, 在局域网IP下编辑 运费模板: 上海运费模板。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-11 17:49:24 管理员张三, 在局域网IP下添加 快递方式: 运费模板名称为:上海运费模板，快递方式名称为：顺丰速运。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-11 17:46:30 管理员张三, 在局域网IP下添加 快递方式: 运费模板名称为:上海运费模板，快递方式名称为：商家配送。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-11 17:44:18 管理员张三, 在局域网IP下添加 快递方式: 运费模板名称为:上海运费模板，快递方式名称为：市内快递。</td>
 			</tr>
 					</tbody>
     </table>
-    <div class="ecjiaf-tar" style="margin-right:15px;padding-bottom:15px;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&c=mh_log&a=init" title="查看更多">查看更多</a></div>
+    <div class="ecjiaf-tar" style="margin-right:15px;padding-bottom:15px;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&amp;c=mh_log&amp;a=init" title="查看更多">查看更多</a></div>
 </section>
 
 
@@ -382,11 +383,7 @@
 
 
 
-<!-- <footer> -->
-<!--     <div class="container"> -->
-
-<!--     </div> -->
-
+@include('public.foot')
 <script type="text/javascript">
 $("[data-toggle='popover']").popover({
 	trigger: 'hover',
@@ -408,34 +405,35 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-@include('public.foot')
+
 <div class="container">
 
 </div>
 
+    </div>
 
 
 
-    <script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.customSelect.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.dcjqaccordion.2.7.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.nicescroll.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.scrollTo.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.sparkline.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.stepy.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.tagsinput.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.validate.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-actual.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery-migrate.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/jquery.quicksearch.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/owl.carousel.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/respond.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-js/sparkline-chart.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/chosen/chosen.jquery.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/assets/Chart/Chart.min.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/jquery-cookie.min.js?ver=1"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/json2.js?ver=1.24"></script>
-<script type="text/javascript" src="http://demodaojia.ecjia.com/content/system/statics/js/ui/jquery-ui-totop.min.js?ver=1.24"></script>
+    <script type="text/javascript" src="/static/jquery.customSelect.min.js"></script>
+<script type="text/javascript" src="/static/jquery.dcjqaccordion.2.7.min.js"></script>
+<script type="text/javascript" src="/static/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="/static/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="/static/jquery.sparkline.js"></script>
+<script type="text/javascript" src="/static/jquery.stepy.js"></script>
+<script type="text/javascript" src="/static/jquery.tagsinput.js"></script>
+<script type="text/javascript" src="/static/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/static/jquery.easy-pie-chart.js"></script>
+<script type="text/javascript" src="/static/jquery-actual.min.js"></script>
+<script type="text/javascript" src="/static/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="/static/jquery.quicksearch.js"></script>
+<script type="text/javascript" src="/static/owl.carousel.js"></script>
+<script type="text/javascript" src="/static/respond.min.js"></script>
+<script type="text/javascript" src="/static/sparkline-chart.js"></script>
+<script type="text/javascript" src="/static/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="/static/Chart.min.js"></script>
+<script type="text/javascript" src="/static/jquery-cookie.min.js"></script>
+<script type="text/javascript" src="/static/json2.js"></script>
+<script type="text/javascript" src="/static/jquery-ui-totop.min.js"></script>
 
 
 
@@ -443,5 +441,6 @@ var _hmt = _hmt || [];
 
 
     <div class="pjaxLoadding"><i class="peg"></i></div>
-</body>
-</html>
+
+
+<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=dashboard&amp;a=init#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a></body></html>

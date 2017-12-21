@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
+//use App\Http\Requests\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
@@ -27,7 +28,10 @@ class loginController extends Controller
         }
         session(array('user_info'=>$users[0]));
         DB::update('update DS_Admin set Ip = "'.$_SERVER['REMOTE_ADDR'].'" where number ='.$data['username']);
-        return Redirect::to('/Admin/index');
+        session('status',null);
+        $url = session('status');
+        session('status',null);
+        return Redirect::to($url);
     }
     public function logout(){
         session()->flush();

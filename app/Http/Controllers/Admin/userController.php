@@ -17,7 +17,11 @@ class userController extends Controller
            }
        }
        $updata =  DB::update('update DS_Admin set name ="'.$arr['name'].'",nickname = "'.$arr['nick_name'].'",introduce = "'.$arr['introduction'].'" where number = '.$arr['user_ident']);
-        var_dump($updata);
+        if ($updata === false){
+            alert('保存出错!','/Admin/user',2);
+        }else{
+            alert('保存成功!','/Admin/user',1);
+        }
 
     }
 }

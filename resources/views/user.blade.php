@@ -10,12 +10,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="ecjia team" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-    <script src="http://demodaojia.ecjia.com/content/apps/merchant/statics/js/html5shiv.js"></script>
-    <script src="http://demodaojia.ecjia.com/content/apps/merchant/statics/js/respond.min.js"></script>
-    <![endif]-->
+@include('public.js')
     <link rel="stylesheet" id="googleapis-fonts-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/fonts/fonts.googleapis.css?ver=1.24" type="text/css" media="all" />
     <link rel="stylesheet" id="bootstrap-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap.min.css?ver=1.24" type="text/css" media="all" />
     <link rel="stylesheet" id="bootstrap-reset-css"  href="http://demodaojia.ecjia.com/content/apps/merchant/statics/mh-css/bootstrap-reset.css?ver=1.24" type="text/css" media="all" />

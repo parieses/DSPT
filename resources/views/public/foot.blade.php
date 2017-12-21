@@ -17,21 +17,21 @@
 	                    		                    </span>
 
                     </p><div class="hide" id="content_shop_wechat_qrcode">
-                        <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/ecjia-intro/shop_wechat_qrcode.jpg"></div>
+                        <div class="t_c"><img class="w100 h100" src="./仪表盘 - 天天果园_files/shop_wechat_qrcode.jpg"></div>
                     </div>
 
                     <div class="hide" id="content_mobile_iphone_qrcode">
-                        <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
+                        <div class="t_c"><img class="w100 h100" src="./仪表盘 - 天天果园_files/qrcode.png"></div>
                     </div>
 
                     <div class="hide" id="content_mobile_android_qrcode">
-                        <div class="t_c"><img class="w100 h100" src="http://demodaojia.ecjia.com/content/uploads/data/assets/qrcode.png"></div>
+                        <div class="t_c"><img class="w100 h100" src="./仪表盘 - 天天果园_files/qrcode.png"></div>
                     </div>
                     <p></p>
                 </div>
                 <div class="col-sm-6">
                     <p class="footer-bottom-links">
-                        Copyright © 2017 ECJia到家 <a href="http://www.miibeian.gov.cn" target="_blank">沪ICP备20170120号</a>                    </p>
+                        Copyright © 2017 ECJia到家 <a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备20170120号</a>                    </p>
                     <p class="footer-bottom-links">
                         <a class="data-pjax" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=merchant&amp;a=shopinfo&amp;id=101">公司简介</a>
                         <a class="data-pjax" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=merchant&amp;a=shopinfo&amp;id=104">联系我们</a>
