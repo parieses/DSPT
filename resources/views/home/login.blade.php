@@ -230,11 +230,11 @@ $(window).load(function() {
 				<form method="POST" action="user_login">
 				  <div>
 					<span>账号<label>*</label></span>
-					<input type="text" name="account">
+					<input type="text" style="width: 520px;height: 30px;border: 1px black solid" name="account">
 				  </div>
 				  <div>
 					<span>密码<label>*</label></span>
-					<input type="password" name="password" style="width: 530px;height: 35px;border: 1px black solid">
+					<input type="password" name="password" style="width: 520px;height: 30px;border: 1px black solid">
 				  </div>
 				  <a class="forgot" href="#">忘记密码了吗?</a>
 				  <input type="submit" id="dl" value="登录">
