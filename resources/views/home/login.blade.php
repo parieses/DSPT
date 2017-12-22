@@ -234,7 +234,7 @@ $(window).load(function() {
 				  </div>
 				  <div>
 					<span>密码<label>*</label></span>
-					<input type="password" name="password">
+					<input type="password" name="password" style="width: 530px;height: 35px;border: 1px black solid">
 				  </div>
 				  <a class="forgot" href="#">忘记密码了吗?</a>
 				  <input type="submit" id="dl" value="登录">
