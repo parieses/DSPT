@@ -78,12 +78,14 @@
 			smoke.confirm(options.msg,function(e){
 				if (e){
 					$.get(options.url, options.id, function(data){
-						// if(data.state == 'success'){
-							// options.obj.remove();
-							ecjia.pjax(window.location.href, function(){
-								ecjia.merchant.showmessage(data);
-							});
-						// }
+						 if(data.state === 'success'){
+						 	options.obj.remove();
+						 }
+						 data.cllbalcks=function () {
+							 window.location.reload();
+                         }
+						 ecjia.merchant.showmessage(data);
+
 					}, 'json');
 				}
 			}, 

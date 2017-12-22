@@ -5,7 +5,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>仪表盘 - 天天果园</title>
+    <title>仪表盘 - DSPT</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="ecjia team">
@@ -57,7 +57,7 @@
 
 
             <ol class="breadcrumb">
-                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=dashboard&amp;a=init">管理主页</a></li>
+                <li><a href="/Admin/index">管理主页</a></li>
                 <li class="active">仪表盘</li>
             </ol>
 
@@ -76,10 +76,10 @@
                                         </div>
                                         <div class="col-sm-5">
                                             <h4>
-                                                <strong>天天果园</strong>
+                                                <strong>DSPT</strong>
                                             </h4>
                                             <hr style="margin-top: 10px;margin-bottom: 10px;">
-                                            <p>水果生鲜</p>
+                                            <p> 服装服饰</p>
                                         </div>
 
                                         <div class="col-sm-4">
@@ -277,16 +277,16 @@
 			<a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&amp;c=mh_profile&amp;a=init">
 					                <img src="/static/ecjia_avatar.jpg"><br>
 	            	   		</a>
-			<h3>张三</h3>
-                        <small class="label label-warning">店长</small>
-                       	<p>好品质，好店铺！</p>
+			<h3>{{ $user->name }}</h3>
+                        <small class="label label-warning">{{ $user->position }}</small>
+                       	<p> {{ $user->name }} </p>
             <div class="pull-left">
                  <label class="">上次登录IP：</label>
-                 171.8.133.164
+                 {{ $user->Ip }}
             </div>
             <div class="pull-left">
                  <label class="">上次登录时间：</label>
-                 2017-12-20 21:52
+                  {{ $user->time }}
             </div>
 
         </div>

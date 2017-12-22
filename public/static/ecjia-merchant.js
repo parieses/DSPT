@@ -92,8 +92,9 @@
 				close		: true,													/* close 是否可以关闭 */
 				$areaobj	: $('.breadcrumb') || $('.main_content'),				/* $areaobj 显示提示信息的地方 */
 				areaobj		: $('.breadcrumb') ? '.breadcrumb' : '.main_content',	/* areaobj 显示提示信息的地方的名称 */
-				pjaxurl		: '',													/* pjax刷新页面后显示message的时候传递的pjaxURL参数 */
+				pjaxurl		: '',												/* pjax刷新页面后显示message的时候传递的pjaxURL参数 */
 				close_self	: 5000,													/* 自动关闭提示内容 */
+                cllbalcks : function () {},
 			};
 
 			var options = $.extend({}, defaults, options);
@@ -117,7 +118,7 @@
 
 			var alert_obj = $('<div class="staticalert alert alert-dismissable ' + options.state + ' ui_showmessage">' + _close + options.message + '</div>');
 			
-			options.close_self >= 1000 && !options.links && window.setTimeout(function() {alert_obj.remove();}, options.close_self);
+			options.close_self >= 1000 && !options.links && window.setTimeout(function() {alert_obj.remove();options.cllbalcks()}, options.close_self);
 
 			options.pjaxurl &&  ecjia.pjax(options.pjaxurl,function() { $(options.areaobj).after(alert_obj); return; });
 

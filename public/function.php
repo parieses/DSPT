@@ -11,3 +11,19 @@ function alert($msg,$url,$icon){
 });</script>';
     exit;
 }
+function get_make_tree($list,$pid = 'pid',$id = 'id',$child = 'child',$root = 0){
+    $packData = $tree = [];
+    foreach ($list as $data){
+        $packData[$data->id] = $data;
+    }
+    unset($list);
+    foreach ($packData as $k=>$v) {
+        if($v->pid == $root ){
+            $tree[] = &$packData[$k];
+        }
+        else{
+            $packData[$v->pid]->$child[] =&$packData[$k];
+        }
+    }
+    return $tree;
+}

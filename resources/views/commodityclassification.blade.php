@@ -93,209 +93,41 @@
                                     <thead>
                                     <tr>
                                         <th>分类名称</th>
-                                        <th class="w200">排序</th>
-                                        <th class="w200">是否显示</th>
+
                                         <th class="w100">操作</th>
                                     </tr>
                                     </thead>
-                                    <tbody><tr class="0" id="0_4">
+                                    <tbody>
+                                    @foreach($lists as $list)
+                                    <tr class="0" id="0_4">
+
                                         <td class="first-cell" align="left">
                                             <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_4" style="margin-left:0em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=4">热带水果</a></span>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=4">{{$list->typename}}</a></span>
                                         </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="4" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="4"></i>
-                                        </td>
+
+
                                         <td>
                                             <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=4" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=4"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="/Admin/comdel?id={{$list->id}}"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
-                                    <tr class="0" id="0_12">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_12" style="margin-left:0em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=12">时令水果</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="12" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="12"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=12" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=12"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="0" id="0_2">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_2" style="margin-left:0em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=2">国产水果</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="2" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="2"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=2" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=2"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
+                                    @if (isset($list->child))
+                                    @foreach($list->child as $lis)
                                     <tr class="1" id="1_10">
                                         <td class="first-cell" align="left">
                                             <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_10" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=10">苹果</a></span>
+                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=10">{{$lis->typename}}</a></span>
                                         </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="10" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="10"></i>
-                                        </td>
+
                                         <td>
                                             <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=10" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=10"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
+                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="/Admin/comdel?id={{$lis->id}}"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
                                         </td>
                                     </tr>
-                                    <tr class="1" id="1_14">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_14" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=14">柑桔橙柚</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="14" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="14"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=14" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=14"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="1" id="1_11">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_11" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=11">梨</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="11" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="11"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=11" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=11"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="1" id="1_13">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_13" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=13">猕猴桃</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="13" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="13"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=13" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=13"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="1" id="1_65">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_65" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=65">李</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="65" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-times " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="65"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=65" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=65"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="0" id="0_8">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_8" style="margin-left:0em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=8">进口水果</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="8" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="8"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=8" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=8"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="1" id="1_64">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_1_64" style="margin-left:1em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=64">葡萄</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="64" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="64"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=64" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=64"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
-                                    <tr class="0" id="0_63">
-                                        <td class="first-cell" align="left">
-                                            <i class="fa fa-minus-square-o cursor_pointer ecjiafc-blue" id="icon_0_63" style="margin-left:0em" onclick="rowClicked(this)"></i>
-                                            <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;cat_id=63">礼品果篮</a></span>
-                                        </td>
-                                        <td>
-								<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="top" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit_sort_order" data-name="sort_order" data-pk="63" data-title="请输入排序序号"> 
-									50
-								</span>
-                                        </td>
-                                        <td>
-                                            <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=toggle_is_show" data-id="63"></i>
-                                        </td>
-                                        <td>
-                                            <a class="data-pjax no-underline" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=edit&amp;cat_id=63" title="编辑"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-                                            <a class="ajaxremove no-underline" data-toggle="ajaxremove" data-msg="您确定要删除该分类吗？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=mh_category&amp;a=remove&amp;id=63"><button class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a>
-                                        </td>
-                                    </tr>
+                                    @endforeach
+                                        @endif
+                                    @endforeach
                                     </tbody></table>
                             </section>
                         </div>

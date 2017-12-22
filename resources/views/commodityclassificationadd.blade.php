@@ -85,7 +85,7 @@
                                     <div class="form-group">
                                         <label class="control-label col-lg-2">分类名称：</label>
                                         <div class="controls col-lg-6">
-                                            <input id="cat_name" class="form-control" type="text" name="cat_name" maxlength="20" value="" size="27">
+                                            <input id="cat_name" class="form-control" type="text" name="typename" maxlength="20" value="" size="27">
                                         </div>
                                         <span class="input-must"><span class="require-field" style="color:#FF0000,">*</span></span>
                                     </div>
@@ -94,8 +94,11 @@
                                     <div class="form-group">
                                         <label class="control-label col-lg-2"  style="margin-right: 15px;">上级分类：</label>
 
-                                            <select style="width: 518px" class="parid" name="parent_id" >
+                                            <select style="width: 518px" class="parid" name="pid" >
                                                 <option value="0">请选择分类</option>
+                                                @foreach($pid as $pid)
+                                                    <option value="{{$pid->id}}">{{$pid->typename}}</option>
+                                                @endforeach
                                             </select>
 
                                     </div>
@@ -105,7 +108,7 @@
                                     <div class="form-group">
                                         <label class="control-label col-lg-2">分类描述：</label>
                                         <div class="col-lg-6">
-                                            <textarea class="form-control" name="cat_desc" rows="6" cols="48"></textarea>
+                                            <textarea class="form-control" name="typedescribe" rows="6" cols="48"></textarea>
                                         </div>
                                     </div>
 
@@ -153,7 +156,7 @@
             data:{form:$("form").serialize(),'_token':'{{  csrf_token() }}' },
             dataType:'json',
             success:function(data){
-               console.log(data);
+               alert(data.msg)
             },
         });
     })

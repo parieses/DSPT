@@ -2,86 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811c8a9a-9c6f-4260-814a-979a288d9aca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/1477683254803646447.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/ecjia_avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/shop_wechat_qrcode.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/bootstrap-editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/bootstrap-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/jquery.form.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/merchant_goods_attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/smoke.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/uniform.aristo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/commodityrecycle.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/commodityclassification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/font-awesome-ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.validate.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap-reset.css" afterPath="$PROJECT_DIR$/public/static/bootstrap-reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/static/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/chosen.css" afterPath="$PROJECT_DIR$/public/static/chosen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/ecjia-merchant.ui.css" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant.ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/ecjia.function.css" afterPath="$PROJECT_DIR$/public/static/ecjia.function.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/static/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/fonts.googleapis.css" afterPath="$PROJECT_DIR$/public/static/fonts.googleapis.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/jquery.easy-pie-chart.css" afterPath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/owl.carousel.css" afterPath="$PROJECT_DIR$/public/static/owl.carousel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/owl.theme.css" afterPath="$PROJECT_DIR$/public/static/owl.theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/owl.transitions.css" afterPath="$PROJECT_DIR$/public/static/owl.transitions.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/page.css" afterPath="$PROJECT_DIR$/public/static/page.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/static/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/table-responsive.css" afterPath="$PROJECT_DIR$/public/static/table-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/Chart.min.js" afterPath="$PROJECT_DIR$/public/static/Chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/static/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/public/static/chosen.jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/ecjia-merchant-ui.js" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant-ui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/ecjia-merchant.js" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/ecjia.js" afterPath="$PROJECT_DIR$/public/static/ecjia.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-1.11.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-actual.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-actual.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-cookie.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-cookie.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-migrate.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-migrate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-pjax.js" afterPath="$PROJECT_DIR$/public/static/jquery-pjax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-ui-totop.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-ui-totop.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.customSelect.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.customSelect.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.dcjqaccordion.2.7.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.dcjqaccordion.2.7.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.easy-pie-chart.js" afterPath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/public/static/jquery.nicescroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.quicksearch.js" afterPath="$PROJECT_DIR$/public/static/jquery.quicksearch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.scrollTo.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.sparkline.js" afterPath="$PROJECT_DIR$/public/static/jquery.sparkline.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.stepy.js" afterPath="$PROJECT_DIR$/public/static/jquery.stepy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/public/static/jquery.tagsinput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/json2.js" afterPath="$PROJECT_DIR$/public/static/json2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/owl.carousel.js" afterPath="$PROJECT_DIR$/public/static/owl.carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/respond.min.js" afterPath="$PROJECT_DIR$/public/static/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/sparkline-chart.js" afterPath="$PROJECT_DIR$/public/static/sparkline-chart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/1.png" afterPath="$PROJECT_DIR$/public/images/1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/bg.png" afterPath="$PROJECT_DIR$/public/images/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/1477683254803646447.jpg" afterPath="$PROJECT_DIR$/public/static/1477683254803646447.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia_avatar.jpg" afterPath="$PROJECT_DIR$/public/static/ecjia_avatar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/qrcode.png" afterPath="$PROJECT_DIR$/public/static/qrcode.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/shop_wechat_qrcode.jpg" afterPath="$PROJECT_DIR$/public/static/shop_wechat_qrcode.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/loginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/loginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/userController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/userController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/AccountController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/AccountController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/CheckoutController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/CheckoutController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/ProductsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/ProductsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/SingleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/SingleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/function.php" afterPath="$PROJECT_DIR$/public/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/Chart.min.js" afterPath="$PROJECT_DIR$/public/static/Chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/bootstrap-editable.css" afterPath="$PROJECT_DIR$/public/static/bootstrap-editable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/public/static/bootstrap-editable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/bootstrap-reset.css" afterPath="$PROJECT_DIR$/public/static/bootstrap-reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/static/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/static/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/chosen.css" afterPath="$PROJECT_DIR$/public/static/chosen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/public/static/chosen.jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia-merchant-ui.js" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia-merchant.js" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia-merchant.ui.css" afterPath="$PROJECT_DIR$/public/static/ecjia-merchant.ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia.function.css" afterPath="$PROJECT_DIR$/public/static/ecjia.function.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/ecjia.js" afterPath="$PROJECT_DIR$/public/static/ecjia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/font-awesome.css" afterPath="$PROJECT_DIR$/public/static/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/static/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts.googleapis.css" afterPath="$PROJECT_DIR$/public/static/fonts.googleapis.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-actual.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-actual.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-cookie.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-cookie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-migrate.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-migrate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-pjax.js" afterPath="$PROJECT_DIR$/public/static/jquery-pjax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery-ui-totop.min.js" afterPath="$PROJECT_DIR$/public/static/jquery-ui-totop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.customSelect.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.customSelect.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.dcjqaccordion.2.7.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.dcjqaccordion.2.7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.css" afterPath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.js" afterPath="$PROJECT_DIR$/public/static/jquery.easy-pie-chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.form.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.form.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/public/static/jquery.nicescroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.quicksearch.js" afterPath="$PROJECT_DIR$/public/static/jquery.quicksearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.scrollTo.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.sparkline.js" afterPath="$PROJECT_DIR$/public/static/jquery.sparkline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.stepy.js" afterPath="$PROJECT_DIR$/public/static/jquery.stepy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/public/static/jquery.tagsinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/static/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/json2.js" afterPath="$PROJECT_DIR$/public/static/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/merchant_goods_attribute.js" afterPath="$PROJECT_DIR$/public/static/merchant_goods_attribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/owl.carousel.css" afterPath="$PROJECT_DIR$/public/static/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/owl.carousel.js" afterPath="$PROJECT_DIR$/public/static/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/owl.theme.css" afterPath="$PROJECT_DIR$/public/static/owl.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/owl.transitions.css" afterPath="$PROJECT_DIR$/public/static/owl.transitions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/page.css" afterPath="$PROJECT_DIR$/public/static/page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/respond.min.js" afterPath="$PROJECT_DIR$/public/static/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/smoke.min.js" afterPath="$PROJECT_DIR$/public/static/smoke.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/sparkline-chart.js" afterPath="$PROJECT_DIR$/public/static/sparkline-chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/style.css" afterPath="$PROJECT_DIR$/public/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/table-responsive.css" afterPath="$PROJECT_DIR$/public/static/table-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/uniform.aristo.css" afterPath="$PROJECT_DIR$/public/static/uniform.aristo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/commodityadd.blade.php" afterPath="$PROJECT_DIR$/resources/views/commodityadd.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/commodityclassification.blade.php" afterPath="$PROJECT_DIR$/resources/views/commodityclassification.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/commoditylist.blade.php" afterPath="$PROJECT_DIR$/resources/views/commoditylist.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php" afterPath="$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/public/foot.blade.php" afterPath="$PROJECT_DIR$/resources/views/public/foot.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/public/html.blade.php" afterPath="$PROJECT_DIR$/resources/views/public/html.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/public/js.blade.php" afterPath="$PROJECT_DIR$/resources/views/public/js.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/user.blade.php" afterPath="$PROJECT_DIR$/resources/views/user.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,40 +92,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commodityclassificationadd.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="152" column="44" lean-forward="false" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="114" lean-forward="false" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/public/js.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="25" column="65" lean-forward="false" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -139,11 +102,42 @@
       <file leaf-file-name="commoditylistController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="248">
+              <caret line="98" column="9" lean-forward="false" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
+                <marker date="1513905891000" expanded="true" signature="650:680" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="650:688" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="650:691" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1134:1195" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1289:1330" ph="select * fro... content" />
+                <marker date="1513905891000" expanded="true" signature="1289:1331" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1289:1332" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1289:1354" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1289:1357" ph="select * fro... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="1872:1920" ph="select id,ty... DS_Comtype" />
+                <marker date="1513905891000" expanded="true" signature="2241:2265" ph="select * fro... DS_Comtype" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commodityadd.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/commodityadd.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-259">
+              <caret line="247" column="102" lean-forward="false" selection-start-line="247" selection-start-column="101" selection-end-line="247" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,22 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>owl.theme.css</find>
-      <find>owl.transitions.css</find>
-      <find>page.css</find>
-      <find>table-responsive.css</find>
-      <find>ClementePDac-ExtraLight.ttf</find>
-      <find>respond.min.js</find>
-      <find>jquery-ui-totop.min.js</find>
-      <find>jquery-pjax.js</find>
-      <find>jquery-cookie.min.js</find>
-      <find>jquery-actual.min.js</find>
-      <find>jquery.validate.min.js</find>
-      <find>jquery.customSelect.min.js</find>
-      <find>ecjia-merchant-ui.js</find>
-      <find>Chart.min.js</find>
-      <find>jquery.stepy.js</find>
-      <find>sparkline-chart.js</find>
       <find>uisearch.js</find>
       <find>css/</find>
       <find>商品</find>
@@ -189,6 +167,22 @@
       <find>./商品回收站 - 天天果园_files</find>
       <find>./商品分类 - 天天果园_files</find>
       <find>commodityclassification</find>
+      <find>/Admin/comdel?</find>
+      <find>showmessage</find>
+      <find>ecjia.merchant = {</find>
+      <find>pajx</find>
+      <find>ajax_remove</find>
+      <find>pjax</find>
+      <find>./选择商品分类 - 天天果园_files</find>
+      <find>选择商品分类</find>
+      <find>SEO优化</find>
+      <find>商品分类</find>
+      <find>glyphicon glyphicon-plus</find>
+      <find>form</find>
+      <find>ajaxremove</find>
+      <find>直接完成</find>
+      <find>imageFile</find>
+      <find>commodityadd</find>
     </findStrings>
     <replaceStrings>
       <replace>Home/css</replace>
@@ -210,12 +204,10 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php" />
         <option value="$PROJECT_DIR$/resources/views/commoditylist.thml.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/bootstrap/cache/services.json" />
         <option value="$PROJECT_DIR$/resources/views/vendor/Home/inde.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/commodityadd.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Home/AccountController.php" />
         <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/account.blade.php" />
@@ -233,17 +225,25 @@
         <option value="$PROJECT_DIR$/resources/views/user.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/public/foot.blade.php" />
         <option value="$PROJECT_DIR$/public/static/font-awesome.css" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/public/html.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/commoditylist.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/commodityrecycle.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/userController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/commodityclassification.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
-        <option value="$PROJECT_DIR$/public/function.php" />
         <option value="$PROJECT_DIR$/resources/views/public/js.blade.php" />
+        <option value="$PROJECT_DIR$/public/function.php" />
+        <option value="$PROJECT_DIR$/public/static/smoke.min.js" />
+        <option value="$PROJECT_DIR$/public/static/ecjia-merchant.js" />
+        <option value="$PROJECT_DIR$/resources/views/commodityclassification.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/static/ecjia-merchant-ui.js" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Comdel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php" />
+        <option value="$PROJECT_DIR$/public/static/ecjia-merchant.ui.css" />
+        <option value="$PROJECT_DIR$/resources/views/commodityadd.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" />
       </list>
     </option>
@@ -261,9 +261,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="94" />
-    <option name="width" value="1793" />
+    <option name="x" value="14" />
+    <option name="y" value="84" />
+    <option name="width" value="1940" />
     <option name="height" value="931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -315,60 +315,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -387,131 +333,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
+              <option name="myItemId" value="commodity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -642,28 +464,27 @@
       <updated>1513580428360</updated>
       <workItem from="1513580429560" duration="106000" />
       <workItem from="1513669236634" duration="27723000" />
-      <workItem from="1513774818867" duration="9503000" />
+      <workItem from="1513774818867" duration="38060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63557000" />
+    <option name="totallyTimeSpent" value="92114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="94" width="1793" height="931" extended-state="0" />
-    <editor active="true" />
+    <frame x="14" y="84" width="1940" height="931" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18903483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1743941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24957167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -672,26 +493,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18908046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -709,50 +510,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-3.1.1.min.js" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/public/Home/css/form.css" />
-    <entry file="file://$PROJECT_DIR$/public/Home/js/classie.js" />
-    <entry file="file://$PROJECT_DIR$/resources/views/html/foot.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/home/checkout.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/home/account.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/html/js.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home/contact.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home/login.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home/products.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home/single.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -762,23 +524,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commodityclassificationController.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/loginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-            <marker date="1513766871000" expanded="true" signature="614:628" ph="select * fro... env" />
-            <marker date="1513766871000" expanded="true" signature="614:636" ph="select * fro... Admin" />
-            <marker date="1513766871000" expanded="true" signature="614:651" ph="select * fro... DS_Admin" />
-            <marker date="1513766871000" expanded="true" signature="614:652" ph="select * fro... DS_Admin" />
-            <marker date="1513766871000" expanded="true" signature="614:672" ph="select * fro... Admin" />
-            <marker date="1513766871000" expanded="true" signature="946:972" ph="update DS_Ad... " />
-            <marker date="1513766871000" expanded="true" signature="946:1015" ph="update DS_Ad... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -852,9 +597,9 @@
         <state relative-caret-position="660">
           <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#a#1;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#2;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#3;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -883,26 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/ecjia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/public/html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="140" column="32" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/commodityadd.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -912,57 +641,43 @@
         <state relative-caret-position="154">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#2;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#3;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#4;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#5;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#6;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#8;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-735">
-          <caret line="383" column="0" lean-forward="true" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
-          <folding>
-            <element signature="e#4124#4143#0#HTML" expanded="true" />
-            <element signature="e#4892#4935#0#HTML" expanded="true" />
-            <element signature="e#5264#5309#0#HTML" expanded="true" />
-            <element signature="e#5722#5767#0#HTML" expanded="true" />
-            <element signature="e#9784#9820#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#2;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#3;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#4;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#5;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#6;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#option#8;n#select#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -972,6 +687,174 @@
         <state relative-caret-position="154">
           <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/public/js.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/ecjia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/smoke.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="129" column="55" lean-forward="true" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/sparkline-chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2344">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513778531000" expanded="true" signature="262:303" ph="..." />
+            <marker date="1513778531000" expanded="true" signature="335:351" ph="..." />
+            <marker date="1513778531000" expanded="true" signature="353:360" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/ecjia-merchant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="85" column="11" lean-forward="true" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5126">
+          <caret line="208" column="55" lean-forward="true" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Comdel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+            <marker date="1513844290000" expanded="true" signature="380:411" ph="delete from " />
+            <marker date="1513844290000" expanded="true" signature="380:433" ph="delete from " />
+            <marker date="1513844290000" expanded="true" signature="380:434" ph="delete from " />
+            <marker date="1513844290000" expanded="true" signature="380:435" ph="delete from " />
+            <marker date="1513844290000" expanded="true" signature="380:437" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/ecjia-merchant-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/commoditylist.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="119" column="169" lean-forward="false" selection-start-line="119" selection-start-column="169" selection-end-line="119" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/commodityclassification.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="91" column="109" lean-forward="false" selection-start-line="91" selection-start-column="109" selection-end-line="91" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/loginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+            <marker date="1513766871000" expanded="true" signature="614:628" ph="select * fro... env" />
+            <marker date="1513766871000" expanded="true" signature="614:636" ph="select * fro... Admin" />
+            <marker date="1513766871000" expanded="true" signature="614:651" ph="select * fro... DS_Admin" />
+            <marker date="1513766871000" expanded="true" signature="614:652" ph="select * fro... DS_Admin" />
+            <marker date="1513766871000" expanded="true" signature="614:672" ph="select * fro... Admin" />
+            <marker date="1513766871000" expanded="true" signature="946:972" ph="update DS_Ad... " />
+            <marker date="1513766871000" expanded="true" signature="946:1015" ph="update DS_Ad... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -996,86 +879,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/commodityclassification.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="99" column="108" lean-forward="false" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
+          <folding>
+            <marker date="1513860144000" expanded="true" signature="7175:7241" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="65" lean-forward="false" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/public/static/ecjia-merchant.ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1264">
+          <caret line="4875" column="0" lean-forward="true" selection-start-line="4875" selection-start-column="0" selection-end-line="4875" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/style.css">
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="1306">
+          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/commodity/商品1513904880.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/commodityadd.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="247" column="102" lean-forward="false" selection-start-line="247" selection-start-column="101" selection-end-line="247" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="305">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/commoditylist.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="46" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="114" lean-forward="false" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/public/js.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/commodityclassificationadd.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="152" column="44" lean-forward="false" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="248">
+          <caret line="98" column="9" lean-forward="false" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
+            <marker date="1513905891000" expanded="true" signature="650:680" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="650:688" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="650:691" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1134:1195" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1289:1330" ph="select * fro... content" />
+            <marker date="1513905891000" expanded="true" signature="1289:1331" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1289:1332" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1289:1354" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1289:1357" ph="select * fro... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="1872:1920" ph="select id,ty... DS_Comtype" />
+            <marker date="1513905891000" expanded="true" signature="2241:2265" ph="select * fro... DS_Comtype" />
           </folding>
         </state>
       </provider>

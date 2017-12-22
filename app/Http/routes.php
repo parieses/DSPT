@@ -23,31 +23,16 @@ Route::get('Admin/logout','Admin\loginController@logout');
 Route::post('Admin/login','Admin\loginController@login');
 Route::get('Admin/index','Admin\indexController@index');
 Route::get('Admin/commoditylist','Admin\commoditylistController@index');
+Route::get('Admin/commodityadd','Admin\commoditylistController@Comlists');
 //商品添加
-Route::get('Admin/commodityadd',function () {
-    if (empty(session('user_info'))){
-        alert('请登录!','/Admin/login','2');
-    }
-    $user = session('user_info');
-    return view('commodityadd')->with('user',$user);
-});
+
 //商品分类展示
-Route::get('/Admin/commodityclassification',function () {
-    if (empty(session('user_info'))){
-        alert('请登录!','/Admin/login','2');
-    }
-    $user = session('user_info');
-    return view('commodityclassification')->with('user',$user);
-});
+Route::get('/Admin/commodityclassification','Admin\commoditylistController@lists');
 Route::post('/Admin/commodityclassificationadd','Admin\commoditylistController@classsave');
 //商品分类添加
-Route::get('/Admin/commodityclassificationadd',function () {
-    if (empty(session('user_info'))){
-        alert('请登录!','/Admin/login','2');
-    }
-    $user = session('user_info');
-    return view('commodityclassificationadd')->with('user',$user);
-});
+Route::get('/Admin/commodityclassificationadd','Admin\commoditylistController@typelist');
+//删除方法
+Route::get('/Admin/comdel',['middleware' => ['Comdel']]);
 //商品回收
 Route::get('/Admin/commodityrecycle',function () {
     if (empty(session('user_info'))){
@@ -57,7 +42,7 @@ Route::get('/Admin/commodityrecycle',function () {
     return view('commodityrecycle')->with('user',$user);
 });
 
-//管理员信息
+//管理员信息展示
 Route::get('Admin/user',function () {
     if (empty(session('user_info'))){
         alert('请登录!','/Admin/login','2');
@@ -65,7 +50,10 @@ Route::get('Admin/user',function () {
     $user = session('user_info');
     return view('user')->with('user',$user);
 });
+//管理员信息保存
 Route::post('Admin/user','Admin\userController@save');
+//商品添加
+Route::post('Admin/commoditylistsave','Admin\commoditylistController@Comadd');
 //////////////前端//////////////////
 Route::get('/','Home\IndexController@index');
 Route::get('/account','Home\AccountController@account');
