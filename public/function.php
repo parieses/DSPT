@@ -22,7 +22,7 @@ function get_make_tree($list,$pid = 'pid',$id = 'id',$child = 'child',$root = 0)
             $tree[] = &$packData[$k];
         }
         else{
-            $packData[$v->pid]->$child[] =&$packData[$k];
+            $packData[$v->pid]->child[] =&$packData[$k];
         }
     }
     return $tree;
