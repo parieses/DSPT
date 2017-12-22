@@ -59,7 +59,7 @@ class LoginController extends Controller
      */
     public function user_login($id)
     {
-        dd(1);
+        dd(1);;
     }
 
     /**
