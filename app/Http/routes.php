@@ -82,4 +82,4 @@ Route::post('/submit','Home\LoginController@useradd');
 
 Route::post('p_account','Home\AccountController@p_account');
 
-Route::get('user_login','Home\LoginController@user_login');
+Route::post('user_login','Home\LoginController@user_login');
