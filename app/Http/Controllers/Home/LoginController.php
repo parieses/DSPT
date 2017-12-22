@@ -3,8 +3,10 @@
 namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
 
 class LoginController extends Controller
 {
@@ -26,6 +28,7 @@ class LoginController extends Controller
     public function login()
     {
         return view('home.login');
+
     }
 
     /**
@@ -34,9 +37,18 @@ class LoginController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+
+
+    public function useradd(){
+        $arr=Input::get();
+        unset($arr['_token']);
+        unset($arr['checkbox']);
+        $arr['pwd'] = password_hash($arr['pwd'],PASSWORD_DEFAULT);
+        $ls = DB::table('User')->insert($arr);
+        if($ls === false){
+            alert('注册失败!','/account',2);
+        }
+        alert('注册成功!','/login',1);
     }
 
     /**

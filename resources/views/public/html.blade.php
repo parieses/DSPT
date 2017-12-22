@@ -170,7 +170,7 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=comment&amp;c=mh_comment&amp;a=init"><i class="fa fa-comment"></i> 评论列表</a></li>
+                                <li><a href="/Admin/comment"><i class="fa fa-comment"></i> 评论列表</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=comment&amp;c=mh_appeal&amp;a=init"><i class="fa fa-exclamation-circle"></i> 申诉列表</a></li>
                             </ul>
                         </li>
@@ -280,7 +280,7 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=merchant&amp;a=init"><i class="fa fa-gears"></i> 店铺设置</a></li>
+                                <li><a href="/Admin/store"><i class="fa fa-gears"></i> 店铺设置</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=mh_franchisee&amp;a=init"><i class="fa fa-info-circle"></i> 入驻信息</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=mh_franchisee&amp;a=receipt"><i class="fa fa-credit-card"></i> 收款账号</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&amp;c=merchant&amp;a=mh_switch"><i class="fa fa-power-off"></i> 店铺上下线</a></li>

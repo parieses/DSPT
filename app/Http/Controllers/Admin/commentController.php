@@ -1,12 +1,16 @@
 <?php
 
-namespace App\Http\Controllers\Home;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-
+use App\Http\Requests;
+use App\Http\Response;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
+use Illuminate\View\View;
 
-class ProductsController extends Controller
+class commentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +19,9 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        //
+        $comment = DB::select('select * from DS_Comment');
+        $user = session('user_info');
+        return View('comment')->with('comment',$comment)->with('user',$user);
     }
 
     /**
@@ -23,9 +29,16 @@ class ProductsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function products()
+    public function search()
     {
-        return view('home.products');
+        $data = Input::get();
+        $user = $data['user'];
+        $users = DB::select('select * from DS_comment where user = "'.$user.'"');
+//        return Response()->json($users);
+        if (empty($users)){
+            alert('用户名不存在!','/Admin/comment','2');
+        }
+        return View('comment')->with('comment',$users);
     }
 
     /**
