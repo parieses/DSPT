@@ -228,6 +228,7 @@ $(window).load(function() {
 			  	<h3>注册客户</h3>
 				<p>如果您有我们的帐户，请登录。</p>
 				<form method="POST" action="user_login">
+					{{ csrf_field() }}
 				  <div>
 					<span>账号<label>*</label></span>
 					<input type="text" style="width: 520px;height: 30px;border: 1px black solid" name="account">
@@ -310,7 +311,8 @@ $(window).load(function() {
 	    if($("*[name='password']").val() == ""){
 	        alert("请输入密码");
 	        return false;
-		}
+		};
+
 	}
 
 	</script>
