@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h3>个人信息</h3>
 									<div class="wow fadeInLeft" data-wow-delay="0.4s">
 										<span>账号<label>*</label></span>
-										<input type="text" name="number" id="number">
+										<input type="text" name="account" id="number">
 									</div>
 									<div class="wow fadeInRight" data-wow-delay="0.4s">
 										<span>电话<label>*</label></span>

@@ -27,8 +27,10 @@ class commoditylistController extends Controller
             alert('请登录!','/Admin/login','2');
         }
         $ls = DB::select('select * from DS_Comtype where pid <>0');
+        $lss = DB::select('select * from DS_Type');
+        $color = DB::select('select * from DS_Color');
         $user = session('user_info');
-        return view('commodityadd',compact('ls'))->with('user',$user);
+        return view('commodityadd',compact('ls'))->with('user',$user)->with('type',$lss)->with('color',$color);
     }
 
     /**
@@ -97,6 +99,9 @@ class commoditylistController extends Controller
                 alert($msg,'/Admin/commodityadd',2);
             }
         }
+        if (!isset($data['图片'])){
+            alert('请上传图片!','/Admin/commodityadd',2);
+        }
        if(!Input::hasFile('图片')){
            alert('图片地址不存在!','/Admin/commodityadd',2);
        }
@@ -104,13 +109,23 @@ class commoditylistController extends Controller
        if(!Input::file('图片')->isValid()){
            alert('图片上传失败!','/Admin/commodityadd',2);
        }
-
-        Input::file('图片')->move(base_path().'/public/commodity/','商品'.time().'.png');
+       $map['衣服型号'] = $data['衣服型号'];
+       $map['衣服颜色']= $data['衣服颜色'];
+       $map['货号']= $data['货号'];
+       $ls =  DB::table('Comlist')->where($map)->get();
+       if (!empty($ls)){
+           alert('该服装已存在!','/Admin/commodityadd',2);
+       }
+       Input::file('图片')->move(base_path().'/public/commodity/','商品'.time().'.png');
        $imgpath = '/commodity/商品'.time().'.png';
        unset($data['图片']);
-       $data[' 图片地址'] = $imgpath;
-       dd($data);
-
+       $data['图片地址'] = '"'.$imgpath.'"';
+       $data['商品标识'] = time();
+      $info =  DB::table('Comlist')->insert($data);
+      if ($info){
+          alert('商品添加成功!!','/Admin/commoditylist',2);
+      }
+        alert('商品添加成功!!','/Admin/commodityadd',1);
     }
 
 }

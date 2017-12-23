@@ -44,6 +44,7 @@ class LoginController extends Controller
         unset($arr['_token']);
         unset($arr['checkbox']);
         $arr['pwd'] = password_hash($arr['pwd'],PASSWORD_DEFAULT);
+
         $ls = DB::table('User')->insert($arr);
         if($ls === false){
             alert('注册失败!','/account',2);

@@ -100,9 +100,9 @@
                                             <span class="input-must"><span class="require-field" style="color:#FF0000,">*</span></span>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2"  style="margin-right: 15px;">衣服分类：</label>
+                                            <label class="control-label col-lg-2"  style="margin-right: 15px;">货号：</label>
 
-                                            <select style="width: 333px" class="parid" name="商品分类" >
+                                            <select style="width: 333px" class="parid" name="货号" >
                                                 <option value="0">请选择分类</option>
                                                 @foreach($ls as $ls)
                                                     <option value="{{$ls->id}}">{{$ls->typename}}</option>
@@ -110,19 +110,35 @@
                                             </select>
 
                                         </div>
-
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2">商品货号：</label>
-                                            <div class="col-lg-7">
-                                                <input class="form-control" name="货号" type="text" value="">
-                                            </div>
+                                            <label class="control-label col-lg-2"  style="margin-right: 15px;">衣服型号：</label>
+
+                                            <select style="width: 333px" class="parid" name="衣服型号" >
+                                                <option value="0">请选择型号</option>
+                                                @foreach($type as $lss)
+                                                    <option value="{{$lss->id}}">{{$lss->type}}</option>
+                                                @endforeach
+                                            </select>
+
                                         </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-lg-2"  style="margin-right: 15px;">衣服颜色：</label>
+
+                                            <select style="width: 333px" class="parid" name="衣服颜色" >
+                                                <option value="0">请选择颜色</option>
+                                                @foreach($color as $lsss)
+                                                    <option style="background: {{$lsss->rgb}}" value="{{$lsss->id}}">{{$lsss->name}}</option>
+                                                @endforeach
+                                            </select>
+
+                                        </div>
+
+
                                         <div class="form-group">
                                             <label class="control-label col-lg-2">本店售价：</label>
                                             <div class="controls col-lg-7">
-                                                <input class="form-control" name="价格" type="text" value="0">
+                                                <input class="form-control" name="价格" type="text" value="100">
                                             </div>
-                                            <span class="input-must m_l15"><span class="require-field" style="color:#FF0000,">*</span></span>
                                         </div>
 
 
