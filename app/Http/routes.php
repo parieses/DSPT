@@ -76,10 +76,8 @@ Route::get('/products','Home\ProductsController@products');
 Route::get('/single','Home\SingleController@single');
 //注册
 Route::post('/submit','Home\LoginController@useradd');
-
-
-
-
+Route::post('/advise','Home\LoginController@advise');
 Route::post('p_account','Home\AccountController@p_account');
-
 Route::post('user_login','Home\LoginController@user_login');
+//退出登录
+Route::get('loginout','Home\LoginController@logout');

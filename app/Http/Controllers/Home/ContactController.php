@@ -6,18 +6,10 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class ContactController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
 
     /**
      * Show the form for creating a new resource.
@@ -26,7 +18,8 @@ class ContactController extends Controller
      */
     public function contact()
     {
-        return view('home.contact');
+        $Cominfo =  DB::table('Comtype')->get();
+        return view('home.contact')->with('Cominfo',get_make_tree($Cominfo));
     }
 
     /**

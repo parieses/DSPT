@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class SingleController extends Controller
 {
@@ -25,7 +26,8 @@ class SingleController extends Controller
      */
     public function single()
     {
-        return view('home.single');
+        $Cominfo =  DB::table('Comtype')->get();
+        return view('home.single')->with('Cominfo',get_make_tree($Cominfo));
     }
 
     /**

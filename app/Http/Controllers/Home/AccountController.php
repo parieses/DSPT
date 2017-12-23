@@ -10,15 +10,6 @@ use Illuminate\Support\Facades\Input;
 
 class AccountController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('home.account');
-    }
 
     /**
      * Show the form for creating a new resource.
@@ -27,7 +18,8 @@ class AccountController extends Controller
      */
     public function account()
     {
-        return view('home.account');
+        $Cominfo =  DB::table('Comtype')->get();
+        return view('home.account')->with('Cominfo',get_make_tree($Cominfo));
     }
 
     /**

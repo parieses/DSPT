@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class CheckoutController extends Controller
 {
@@ -25,7 +26,9 @@ class CheckoutController extends Controller
      */
     public function checkout()
     {
-        return view('home.checkout');
+
+        $Cominfo =  DB::table('Comtype')->get();
+        return view('home.checkout')->with('Cominfo',get_make_tree($Cominfo));
     }
 
     /**

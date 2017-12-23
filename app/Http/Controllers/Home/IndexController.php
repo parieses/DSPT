@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Home;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class IndexController extends Controller
 {
@@ -14,7 +15,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view('home.index');
+        $Cominfo =  DB::table('Comtype')->get();
+        return view('home.index')->with('Cominfo',get_make_tree($Cominfo));
     }
 
     /**
