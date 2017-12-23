@@ -59,6 +59,9 @@ Route::get('Admin/comment','Admin\commentController@index');
 Route::post('Admin/search','Admin\commentController@search');
 Route::get('Admin/store','Admin\storeController@index');
 Route::post('Admin/storeadd','Admin\storeController@storeadd');
+//轮播图
+Route::get('Admin/carouselfigure','Admin\storeController@carouselfigure');
+Route::post('Admin/carouselfigure','Admin\storeController@carouselfigureadd');
 //////////////前端//////////////////
 //主页面
 Route::get('/','Home\IndexController@index');

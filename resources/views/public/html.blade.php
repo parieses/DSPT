@@ -267,7 +267,7 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=init"><i class="fa fa-picture-o"></i> 轮播图</a></li>
+                                <li><a href="/Admin/carouselfigure"><i class="fa fa-picture-o"></i> 轮播图</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_shortcut&amp;a=init"><i class="fa fa-th-list"></i> 快捷菜单</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_group&amp;a=init"><i class="fa fa-th-large"></i> 广告组编排</a></li>
                                 <li><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_position&amp;a=init"><i class="fa fa-volume-up"></i> 广告位管理</a></li>

@@ -119,13 +119,13 @@ class commoditylistController extends Controller
        Input::file('图片')->move(base_path().'/public/commodity/','商品'.time().'.png');
        $imgpath = '/commodity/商品'.time().'.png';
        unset($data['图片']);
-       $data['图片地址'] = '"'.$imgpath.'"';
+       $data['图片地址'] = $imgpath;
        $data['商品标识'] = time();
       $info =  DB::table('Comlist')->insert($data);
       if ($info){
-          alert('商品添加成功!!','/Admin/commoditylist',2);
+          alert('商品添加成功!!','/Admin/commoditylist',1);
       }
-        alert('商品添加成功!!','/Admin/commodityadd',1);
+        alert('商品添加失败!!','/Admin/commodityadd',2);
     }
 
 }

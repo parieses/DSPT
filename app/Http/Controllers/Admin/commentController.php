@@ -23,7 +23,6 @@ class commentController extends Controller
         $user = session('user_info');
         return View('comment')->with('comment',$comment)->with('user',$user);
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -33,11 +32,12 @@ class commentController extends Controller
     {
         $data = Input::get();
         $user = $data['user'];
-        $users = DB::select('select * from DS_comment where user = "'.$user.'"');
+        $users = DB::select('select * from DS_Comment where user = "'.$user.'"');
         if (empty($users)){
             alert('用户名不存在!','/Admin/comment','2');
         }
-        return View('Comment')->with('comment',$users);
+        $user = session('user_info');
+        return View('comment')->with('comment',$users)->with('user',$user);
     }
 
 

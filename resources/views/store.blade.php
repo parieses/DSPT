@@ -102,7 +102,7 @@ label + div.col-lg-6, label + div.col-lg-2 {
                   	    <div class="form-group">
                             <label class="control-label col-lg-2">店铺名称：</label>
                             <div class="col-lg-6">
-                                <h4>天天果园</h4>
+                                <h4>DSPT</h4>
                             </div>
                         </div>
 
@@ -130,7 +130,7 @@ label + div.col-lg-6, label + div.col-lg-2 {
                                         <input type="file" id="browse2" name="logo" ID="fupPhoto" style="background-color: #3498db; display: none;"/>
                                         <input id="btn2" value="修改" style="background-color: #3498db; color: white;border: none;width: 25px;">
                                     </span>
-                                    <a class="btn btn-danger btn-sm fileupload-exists" data-toggle="ajax_remove" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=merchant&c=merchant&a=drop_file&code=shop_logo" >删除</a>
+                                    <a class="btn btn-danger btn-sm fileupload-exists" data-toggle="ajax_remove" href="/Admin/store?id=1" >删除</a>
                                 	<span class="input-must"><span class="require-field" style="color:#FF0000,">*</span></span>
                                 </div>
                                 <span class="help-block">推荐图片的尺寸为：512x512px</span>
@@ -181,7 +181,7 @@ label + div.col-lg-6, label + div.col-lg-2 {
                                 <input class="form-control" name="shop_description" placeholder="..."/>
                             </div>
                         </div>
-                        
+
                         <div class="form-group ">
                             <label class="control-label col-lg-2">自动派单：</label>
                             <div class="col-lg-6">
@@ -191,7 +191,7 @@ label + div.col-lg-6, label + div.col-lg-2 {
                                 <label for="close">关闭</label>
                                 <span class="help-block">（订单使用o2o配送方式时。当发货未选择配送员时，系统将自动优先分派配送单，再进入抢单模式，否则进入抢单模式）</span>
                             </div>
-                            
+
                         </div>
 
                         <div class="form-group ">

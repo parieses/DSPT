@@ -37,5 +37,24 @@ class storeController extends Controller
         Input::file('browse')->move(base_path().'/public/commodity/','商品'.time().'.png');
         dd($arr['browse']);
     }
+    public function carouselfigure(){
+        $user = session('user_info');
+        return View('carouselfigure')->with('user',$user);;
+    }
+    public function carouselfigureadd(){
+        $arr = Input::all();
+        if (!isset($arr['ad_code'])){
+            alert('请上传图片!','/Admin/carouselfigure',2);
+        }
+        if(!Input::hasFile('ad_code')){
+            alert('图片地址不存在!','/Admin/carouselfigure',2);
+        }
+        //验证文件是否上传成功
+        if(!Input::file('ad_code')->isValid()){
+            alert('图片上传失败!','/Admin/carouselfigure',2);
+        }
+
+        dd($arr);
+    }
 
 }

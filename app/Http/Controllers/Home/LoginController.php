@@ -87,11 +87,12 @@ class LoginController extends Controller
         session(array('user'=>$user[0]));
 
         $url = session('statuss');
+        session()->forget('statuss');
         return Redirect($url);
     }
 
     public function logout(){
-        session()->flush('user');
+        session()->forget('user');
         return Redirect::to('/');
     }
 }
