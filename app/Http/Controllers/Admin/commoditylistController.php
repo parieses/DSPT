@@ -30,7 +30,8 @@ class commoditylistController extends Controller
         }
         $ls = DB::select('select * from DS_Comtype where pid <>0');
         $user = session('user_info');
-        return view('commodityadd',compact('ls'))->with('user',$user);
+        $color = DB::select('select * from DS_Color ');
+        return view('commodityadd',compact('ls'))->with('user',$user)->with('color',$color);
     }
 
     /**

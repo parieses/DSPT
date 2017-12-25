@@ -110,17 +110,7 @@
                                             </select>
 
                                         </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-lg-2"  style="margin-right: 15px;">衣服型号：</label>
 
-                                            <select style="width: 333px" class="parid" name="衣服型号" >
-                                                <option value="0">请选择型号</option>
-                                                @foreach($type as $lss)
-                                                    <option value="{{$lss->id}}">{{$lss->type}}</option>
-                                                @endforeach
-                                            </select>
-
-                                        </div>
                                         <div class="form-group">
                                             <label class="control-label col-lg-2"  style="margin-right: 15px;">衣服颜色：</label>
 
