@@ -20,17 +20,17 @@ class commoditylistController extends Controller
         alert('请登录!','/Admin/login','2');
         }
         $user = session('user_info');
-        return View('commoditylist')->with('user',$user);
+        $results = DB::table('Comlist')->get();
+        $comtypes = DB::table('Comtype')->get();
+        return View('commoditylist',compact('results'))->with('user',$user)->with('comtypes',$comtypes);
     }
     function Comlists(){
         if (empty(session('user_info'))){
             alert('请登录!','/Admin/login','2');
         }
         $ls = DB::select('select * from DS_Comtype where pid <>0');
-        $lss = DB::select('select * from DS_Type');
-        $color = DB::select('select * from DS_Color');
         $user = session('user_info');
-        return view('commodityadd',compact('ls'))->with('user',$user)->with('type',$lss)->with('color',$color);
+        return view('commodityadd',compact('ls'))->with('user',$user);
     }
 
     /**
@@ -99,9 +99,6 @@ class commoditylistController extends Controller
                 alert($msg,'/Admin/commodityadd',2);
             }
         }
-        if (!isset($data['图片'])){
-            alert('请上传图片!','/Admin/commodityadd',2);
-        }
        if(!Input::hasFile('图片')){
            alert('图片地址不存在!','/Admin/commodityadd',2);
        }
@@ -109,23 +106,68 @@ class commoditylistController extends Controller
        if(!Input::file('图片')->isValid()){
            alert('图片上传失败!','/Admin/commodityadd',2);
        }
-       $map['衣服型号'] = $data['衣服型号'];
-       $map['衣服颜色']= $data['衣服颜色'];
-       $map['货号']= $data['货号'];
-       $ls =  DB::table('Comlist')->where($map)->get();
-       if (!empty($ls)){
-           alert('该服装已存在!','/Admin/commodityadd',2);
-       }
-       Input::file('图片')->move(base_path().'/public/commodity/','商品'.time().'.png');
+
+        Input::file('图片')->move(base_path().'/public/commodity/','商品'.time().'.png');
        $imgpath = '/commodity/商品'.time().'.png';
        unset($data['图片']);
-       $data['图片地址'] = $imgpath;
-       $data['商品标识'] = time();
-      $info =  DB::table('Comlist')->insert($data);
-      if ($info){
-          alert('商品添加成功!!','/Admin/commoditylist',1);
-      }
-        alert('商品添加失败!!','/Admin/commodityadd',2);
+       $data[' 图片地址'] = $imgpath;
+       dd($data);
+
+    }
+    public function commodityinquire()
+    {
+        if (empty(session('user_info'))) {
+            alert('请登录!', '/Admin/login', '2');
+        }
+        $result = Input::get();
+        if (!$result['cat_id']){
+            alert('请选择分类!','/Admin/commoditylist',2);
+        }
+        $user = session('user_info');
+        unset($result['review_status']);
+        unset($result['review_token']);
+        $results = DB::select('select * from DS_Comlist where 货号 ='.$result['cat_id'] .' and 商品名称 like "%'.$result['keywords'].'%"');
+        $comtypes = DB::table('Comtype')->get();
+        return View('commoditylist',compact('results'))->with('user',$user)->with('comtypes',$comtypes);;
     }
 
+    public function update(){
+        $arr = Input::get();
+//        print_r($arr);exit;
+        if ($arr['status'] == 1){
+            $arr['status'] = 0;
+            unset($arr['_token']);
+            $result = DB::table('Comlist')
+                ->where('id', $arr['id'])
+                ->update([$arr['title'] => $arr['status']]);
+            unset($arr);
+            if ($result === 1){
+                return ['result'=>$result];
+            }else{
+                return ['result'=>'更新失败!'];
+            }
+        }else{
+            $arr['status'] = 1;
+            unset($arr['_token']);
+            $result = DB::table('Comlist')
+                ->where('id', $arr['id'])
+                ->update([$arr['title'] => $arr['status']]);
+            unset($arr);
+            if ($result === 1){
+                return ['result'=>$result];
+            }else{
+                return ['result'=>'更新失败!'];
+            }
+        }
+    }
+    public function delete(){
+        $arr = Input::get();
+        $arr = rtrim($arr['id'],',');
+        $result = DB::delete('delete from DS_Comlist where id in ('.$arr.')');
+        if ($result !== 0){
+            return ['result'=>$result];
+        }else{
+            return ['result'=>'更新失败!'];
+        }
+    }
 }

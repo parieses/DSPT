@@ -26,11 +26,18 @@ class loginController extends Controller
         if (!password_verify($data['pwd'],$users[0]->pwd)){
             alert('密码错误!','/Admin/login','2');
         }
+        $ip= GetIpLookup() ? GetIpLookup() : '局域网';
+        $info['uid']=$users[0]->id;
+        $info['source']=1;
+        $info['msg'] = $users[0]->position.$users[0]->name.'于'.date('Y-m-d H:i:s',time()).$ip.'登录本系统';
+        DB::table('Log')->insert($info);
         session(array('user_info'=>$users[0]));
         DB::update('update DS_Admin set Ip = "'.$_SERVER['REMOTE_ADDR'].'" where number ='.$data['username']);
         session('status',null);
         $url = session('status');
         session('status',null);
+
+
         return Redirect::to($url);
     }
     public function logout(){

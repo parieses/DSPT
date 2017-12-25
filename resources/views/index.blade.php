@@ -335,21 +335,12 @@
     </div>
     <table class="table personal-task ">
         <tbody>
+        @foreach($info as $info)
 						<tr>
-				<td style="text-align:left;">2017-12-20 18:51:36 管理员张三, 在河南省IP下转移 分类商品: 从热带水果转移到热带水果。</td>
+				<td style="text-align:left;">{{ $info->msg }}</td>
 			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-20 10:48:47 管理员张三, 在广东省佛山市IP下编辑 个人资料: 。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-20 08:38:52 管理员张三, 在河南省郑州市IP下首页快捷菜单。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-20 08:38:17 管理员张三, 在河南省郑州市IP下首页轮播图。</td>
-			</tr>
-						<tr>
-				<td style="text-align:left;">2017-12-11 18:00:04 管理员张三, 在局域网IP下编辑 运费模板: 上海运费模板。</td>
-			</tr>
+			@endforeach
+
 					</tbody>
     </table>
     <div class="ecjiaf-tar" style="margin-right:15px;padding-bottom:15px;"><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=staff&amp;c=mh_log&amp;a=init" title="查看更多">查看更多</a></div>

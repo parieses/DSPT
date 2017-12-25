@@ -97,7 +97,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
                         <img alt="" width="30" height="30" src="http://demodaojia.ecjia.com/content/apps/merchant/statics/img/ecjia_avatar.jpg">
-                        <span class="username">{{$user->nickname  }}</span>
+                        <span class="username">{{ $user->nickname }}</span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">

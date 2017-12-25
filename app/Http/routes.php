@@ -24,6 +24,9 @@ Route::post('Admin/login','Admin\loginController@login');
 Route::get('Admin/index','Admin\indexController@index');
 Route::get('Admin/commoditylist','Admin\commoditylistController@index');
 Route::get('Admin/commodityadd','Admin\commoditylistController@Comlists');
+Route::post('Admin/commodityinquire','Admin\commoditylistController@commodityinquire');
+Route::post('Admin/commodityupdate','Admin\commoditylistController@update');
+Route::post('Admin/commoditydelete','Admin\commoditylistController@delete');
 //商品添加
 
 //商品分类展示
@@ -62,6 +65,8 @@ Route::post('Admin/storeadd','Admin\storeController@storeadd');
 //轮播图
 Route::get('Admin/carouselfigure','Admin\storeController@carouselfigure');
 Route::post('Admin/carouselfigure','Admin\storeController@carouselfigureadd');
+Route::get('Admin/chang','Admin\storeController@carouselfigurechang');
+
 //////////////前端//////////////////
 //主页面
 Route::get('/','Home\IndexController@index');

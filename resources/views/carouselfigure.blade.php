@@ -92,27 +92,33 @@
                                             </tr>
                                             </thead>
                                             <tbody>
+                                            @foreach($info as $in)
                                             <tr>
                                                 <td>
-                                                    <img src="/static/1513987984289559473.jpg" width="100" height="90">
+                                                    <img src="{{ $in->imgpath }}" width="100" height="90">
                                                 </td>
                                                 <td class="hide-edit-area">
                                                     <span><a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=init" target="_blank"></a></span><br>
-                                                    e12e
+                                                    {{ $in->ad_name }}
                                                     <div class="edit-list">
                                                         <a class="data-pjax" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=edit&amp;id=1&amp;show_client=2" title="编辑">编辑</a>&nbsp;|&nbsp;
                                                         <a data-toggle="ajaxremove" class="ajaxremove ecjiafc-red" data-msg="您要删除这张轮播图么？" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=delete&amp;id=1&amp;position_id=1" title="删除">删除</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=toggle_show&amp;position_id=1&amp;show_client=2" data-id="1"></i>
+                                                    @if($in->enabled == 1)
+                                                        <i class="cursor_pointer fa fa-check " data-trigger="toggleState" data-type="get" data-url='/Admin/chang?enabled={{$in->enabled}}' data-id="{{ $in->id }}"></i>
+                                                    @else
+                                                    <i class="cursor_pointer fa fa-times" data-trigger="toggleState" data-url="/Admin/chang?enabled={{$in->enabled}}"  data-type="get" data-id="{{ $in->id }}"></i>
+                                                        @endif
                                                 </td>
                                                 <td>
-												<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="left" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=edit_sort&amp;position_id=1&amp;show_client=2" data-name="sort_order" data-pk="1" data-title="请输入排序序号"> 
-												1
+												<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="left" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=adsense&amp;c=mh_cycleimage&amp;a=edit_sort&amp;position_id=1&amp;show_client=2" data-name="sort_order" data-pk="1" data-title="请输入排序序号">
+												{{ $in->id }}
 												</span>
                                                 </td>
                                             </tr>
+                                            @endforeach();
                                             </tbody>
                                         </table>
                                     </section>
@@ -253,9 +259,9 @@
 
 
 
-<script type="text/javascript">
-    ecjia.merchant.mh_cycleimage.cycleimage_list();
-</script>
+    <script type="text/javascript">
+        ecjia.merchant.mh_cycleimage.cycleimage_list();
+    </script>
 
 
 
