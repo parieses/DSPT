@@ -78,6 +78,7 @@ $(window).load(function() {
 			</div>
 		</div>
 	</div>
+</div>
 	<script>
         var submit = document.getElementById('submit');
         submit.onclick=function () {
@@ -94,34 +95,11 @@ $(window).load(function() {
                 layer.msg('请输入您的建议');
                 return false;
             }
-
         }
-
-
 	</script>
 	<!--footer-->
 	@include("home.footer");
-<!--footer-->
-<script>
-    var submit = document.getElementById('submit');
-    submit.onclick=function () {
-
-        if($('#name').val() ==''){
-            layer.msg('请输入您的姓名');
-            return false;
-        }
-        if($('#email').val() == ''){
-            layer.msg('请输入您的邮箱');
-            return false;
-        }
-        if($('#advise').val() == ''){
-            layer.msg('请输入您的建议');
-            return false;
-        }
-
-    }
 
 
-</script>
 </body>
 </html>

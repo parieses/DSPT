@@ -44,9 +44,11 @@ $(window).load(function() {
 					<div class="col-md-4 single-grid1">
 						<h2>账户</h2>
 							<ul>
+								@if(empty(session('user')))
 								<li><a href="login">登录</a></li>
-								<li><a href="login">注册</a></li>
+								<li><a href="account">注册</a></li>
 								<li><a href="login">忘了你的密码</a></li>
+								@else
 								<li><a href="account">我的账户</a></li>
 								<li><a href="login">地址簿</a></li>
 								<li><a href="login">心愿单</a></li>
@@ -57,6 +59,7 @@ $(window).load(function() {
 								<li><a href="login">交易</a></li>
 								<li><a href="login">时事通讯</a></li>
 								<li><a href="login">经常性支出</a></li>
+									@endif
 							</ul>
 					</div>
 					<div class="col-md-4 single-grid">		
@@ -74,42 +77,27 @@ $(window).load(function() {
 							</ul>
 						</div>
 					</div>	
-					<div class="col-md-4 single-grid simpleCart_shelfItem">		
-						<h3>服从虚度年华迷彩拉链比基尼顶部</h3>
+					<div class="col-md-4 single-grid simpleCart_shelfItem">
+						<h3>{{$name['商品名称']}}</h3>
+						<input type="hidden" value="{{$name['货号']}}">
+
 							<p>条件新随着游泳衣市场的繁荣，有许多地方提供游泳服装，你可能不知道在哪里看第一。如果您想方便您的搜索，请在我们的一站式商店中入住，这样您就可以正确地装备自己的水上活动。</p>
 								<ul class="size">
-									<h3>大小</h3>
-										<li><a href="#">25</a></li>
-										<li><a href="#">26</a></li>
-										<li><a href="#">27</a></li>
-										<li><a href="#">28</a></li>
-										<li><a href="#">29</a></li>
-										<li><a href="#">30</a></li>
-										<li><a href="#">31</a></li>
-										<li><a href="#">32</a></li>
-										<li><a href="#">33</a></li>
-								</ul>
-								<ul class="size">
-									<h3>长度</h3>
-										<li><a href="#">32</a></li>
-										<li><a href="#">34</a></li>
+									<h3>型号/颜色</h3>
+									@foreach($infos as $k => $ccc)
+										<li><a id="type" class='{{ $ccc[2]}}'href="single?cid={{$name['货号']}}&cname={{$name['商品名称']}}&id={{ $ccc[2]}}">{{ $ccc[0]->name }}&nbsp;/&nbsp;{{ $ccc[1]->type }}</a></li>
+									@endforeach
 								</ul>
 							<div class="galry">
 								<div class="prices">
-									<h5 class="item_price">$95.00</h5>
+									<h5 class="item_price">${{ $money }}</h5>
 								</div>
-								<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
+
 								<div class="clearfix"></div>
 							</div>
 								<p class="qty"> 数量 :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
 							<div class="btn_form">
-								<a href="#" class="add-cart item_add">添加到购物车</a>
+								<a href="#" id="add" onclick="test()" class="add-cart item_add">添加到购物车</a>
 							</div>
 							<div class="tag">
 								<p>类型 : <a href="#"> 比基尼 </a></p>
@@ -291,20 +279,34 @@ $(window).load(function() {
 </div>
 	<!--footer-->
 	<div class="subscribe">
-		<div class="container">
-			<div class="subscribe1">
-				<h4>最新的泳衣</h4>
-			</div>
-			<div class="subscribe2">
-				<form>
-					<input type="text" class="text" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}">
-					<input type="submit" value="加入">
-				</form>
-			</div>
-			<div class="clearfix"></div>
-		</div>
 	</div>
 	@include("home.footer");
 			
 </body>
 </html>
+<script>
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    $.get('',function(data){
+
+	})
+    function test() {
+        @if(empty(session('user'))) var as = 1
+		@else  var as = 2;
+		@endif
+        if (as==2){
+            var obj = getQueryString("id");
+            $.ajax({
+
+            })
+		}else {
+            layer.msg("请登录!");
+		}
+
+
+    }
+
+</script>

@@ -20,7 +20,7 @@ class commoditylistController extends Controller
         alert('请登录!','/Admin/login','2');
         }
         $user = session('user_info');
-        $results = DB::table('Comlist')->get();
+        $results = DB::table('Comlist')->paginate(10);
         $comtypes = DB::table('Comtype')->get();
         return View('commoditylist',compact('results'))->with('user',$user)->with('comtypes',$comtypes);
     }
@@ -114,6 +114,7 @@ class commoditylistController extends Controller
         $map['衣服型号'] = $data['衣服型号'];
         $map['衣服颜色']= $data['衣服颜色'];
         $map['货号']= $data['货号'];
+        $map['商品名称']=$data['商品名称'];
         $ls =  DB::table('Comlist')->where($map)->get();
         if (!empty($ls)){
             alert('该服装已存在!','/Admin/commodityadd',2);

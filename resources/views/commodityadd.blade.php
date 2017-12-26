@@ -91,6 +91,7 @@
                             <div class="form">
                                 <form class="form-horizontal" enctype="multipart/form-data"  method="post" name="theForm" action="/Admin/commoditylistsave ">
                                     {{ csrf_field() }}
+                                    <div>
                                     <div class="col-lg-7 pull-left">
                                         <div class="form-group m_t10">
                                             <label class="control-label col-lg-2">商品名称：</label>
@@ -240,7 +241,6 @@
                                             </div>
                                         </div>
 
-
                                         <div class="panel-group">
                                             <div class="panel panel-info">
                                                 <div class="panel-heading">
@@ -291,7 +291,24 @@
 
 
                                     </div>
+
                                     </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                        </div>
+
+                                    </div>
+
+
+
                                 </form>
                             </div>
                         </div>

@@ -260,19 +260,24 @@
                                 </div>
                                 <div class="pull-right">
 
-                                    <div class="input-append input-group">
-                                        <input id="pagekeydown" type="text" name="page" value="1" class="pageinput form-control" onkeydown="javascript:
-        if(event.keyCode==13){
-        location.href=&#39;http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=&#39;+this.value+&#39;&#39;;
-        }
-        ">
-                                        <span class="input-group-btn">
-        <button class="btn btn-primary" onclick="javascript:
-        var input = document.getElementById(&#39;pagekeydown&#39;);
-        location.href=&#39;http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=&#39;+input.value+&#39;&#39;;
-        ">GO</button></span>
+                                    {{--<div class="input-append input-group">--}}
+                                        {{--<input id="pagekeydown" type="text" name="page" value="1" class="pageinput form-control" onkeydown="javascript:--}}
+        {{--if(event.keyCode==13){--}}
+        {{--location.href=&#39;http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=&#39;+this.value+&#39;&#39;;--}}
+        {{--}--}}
+        {{--">--}}
+                                        {{--<span class="input-group-btn">--}}
+        {{--<button class="btn btn-primary" onclick="javascript:--}}
+        {{--var input = document.getElementById(&#39;pagekeydown&#39;);--}}
+        {{--location.href=&#39;http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=&#39;+input.value+&#39;&#39;;--}}
+        {{--">GO</button></span>--}}
                                     </div>
-                                    <ul class="pagination"><li class="active"><a>上一页</a></li><li></li><li class="active"><a>1</a></li><li><a class="a1 data-pjax external_link" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=2">2</a></li><li><a class="a1 data-pjax external_link" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=2">下一页</a></li></ul>
+                                    <div id="pull_right">
+                                        <div class="pull-right">
+                                            {!! $results->render() !!}
+                                        </div>
+                                    </div>
+                                    {{--<ul class="pagination"><li class="active"><a>上一页</a></li><li></li><li class="active"><a>1</a></li><li><a class="a1 data-pjax external_link" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=2">2</a></li><li><a class="a1 data-pjax external_link" href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init&amp;page=2">下一页</a></li></ul>--}}
                                 </div>
                             </div>
                         </div>

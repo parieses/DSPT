@@ -119,18 +119,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 			<h3>特色产品</h3>
 			<div class="gallery-grids">
+				@foreach($List as $xxx)
 				<div class="col-md-3 gallery-grid ">
-					<a href="products"><img src="./Home/images/g1.png" class="img-responsive" alt=""/>
+
+					<a href="products"><img src="{{$xxx->图片地址}}" class="img-responsive" alt=""/>
 					<div class="gallery-info">
 					<div class="quick">
 					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
 					</div>
 					</div></a>
 					<div class="galy-info">
-						<p>爱情女人的爱情</p>
+						<p>{{$xxx->商品名称}}</p>
 						<div class="galry">
 						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
+						<h5 class="item_price">{{$xxx->价格}}</h5>
 						</div>
 					<div class="rating">
 									<span>☆</span>
@@ -143,182 +145,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"></div>
 					</div>
 					</div>
-				</div>
-				<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g2.png" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
 
-					<div class="clearfix"></div>
-					</div>
-					</div>
 				</div>
-					<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g3.png" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g4.png" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-					<div class="col-md-3 gallery-grid ">
-						<a href="products"><img src="./Home/images/g5.jpg" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-					<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g6.jpg" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info simpleCart_shelfItem">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-					<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g7.jpg" class="img-responsive" alt=""/><div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info simpleCart_shelfItem">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid">
-						<a href="products"><img src="./Home/images/g8.jpg" class="img-responsive" alt=""/>
-						<div class="gallery-info">
-					<div class="quick">
-					<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 视图</p>
-					</div>
-					</div></a>
-					<div class="galy-info simpleCart_shelfItem">
-						<p>爱情女人的爱情</p>
-						<div class="galry">
-						<div class="prices">
-						<h5 class="item_price">$95.00</h5>
-						</div>
-					<div class="rating">
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-									<span>☆</span>
-								</div>
-						
-					<div class="clearfix"></div>
-					</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
+				@endforeach
 			</div>
 		</div>
 		</div>

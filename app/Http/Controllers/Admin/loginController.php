@@ -36,12 +36,12 @@ class loginController extends Controller
         session('status',null);
         $url = session('status');
         session('status',null);
-
-
+        session()->forget('status');
         return Redirect::to($url);
     }
     public function logout(){
         session()->flush();
+        session()->forget('user_info');
         return Redirect::to('/Admin/login');
     }
 }

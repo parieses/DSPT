@@ -9,14 +9,14 @@
                     @if(empty(session('user')))
                     <li class="text"><a href="login">登录</a></li>
                     @else()
-                        <li class="text"><a href="javascript:">个人信息</a></li>
+                        <li class="text"><a href="/information">个人信息</a></li>
                     @endif
                         @if(session('user'))
                     <li><div class="cart box_1">
                             <a href="checkout">
                                 <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)
                             </a>
-                            <p><a href="javascript:;" class="simpleCart_empty" >购物车</a></p>
+                            <p><a href="checkout" class="simpleCart_empty" >购物车</a></p>
                             <div class="clearfix"> </div>
                         </div>
                     </li>

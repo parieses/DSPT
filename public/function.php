@@ -80,3 +80,25 @@ function GetIpLookup($ip = ''){
     }
     return $json;
 }
+function make_directory($ftp_stream, $dir){
+    // if directory already exists or can be immediately created return true
+    if ($this->ftp_is_dir($ftp_stream, $dir) || @ftp_mkdir($ftp_stream, $dir)) return true;
+    // otherwise recursively try to make the directory
+    if (!$this->make_directory($ftp_stream, dirname($dir))) return false;
+    // final step to create the directory
+    return ftp_mkdir($ftp_stream, $dir);
+}
+
+function ftp_is_dir($ftp_stream, $dir){
+    // get current directory
+    $original_directory = ftp_pwd($ftp_stream);
+    // test if you can change directory to $dir
+    // suppress errors in case $dir is not a file or not a directory
+    if ( @ftp_chdir( $ftp_stream, $dir ) ) {
+        // If it is a directory, then change the directory back to the original directory
+        ftp_chdir( $ftp_stream, $original_directory );
+        return true;
+    } else {
+        return false;
+    }
+}

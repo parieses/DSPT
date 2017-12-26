@@ -16,7 +16,11 @@ class IndexController extends Controller
     public function index()
     {
         $Cominfo =  DB::table('Comtype')->get();
-        return view('home.index')->with('Cominfo',get_make_tree($Cominfo));
+        $List = DB::table('Comlist')->get();
+        return view('home.index')->with('Cominfo',get_make_tree($Cominfo))->with('List',$List);
+//        $imgpath = DB::table('Carousel')->get();
+//        dd($imgpath);
+
     }
 
     /**
