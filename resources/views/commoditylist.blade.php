@@ -9,6 +9,19 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="ecjia team">
+    <style>
+        .div{
+            width:100%;
+            display: flex;
+            justify-content: center;
+        }
+        .attr tr td{
+            text-align: center;
+        }
+        .tables thead th{
+            text-align: center;
+        }
+    </style>
 @include('public.js')
     <![endif]-->
     <link rel="stylesheet" id="googleapis-fonts-css" href="/static/fonts.googleapis.css" type="text/css" media="all">
@@ -165,9 +178,10 @@
                                         <th class="w70 text-center"> 精品 </th>
                                         <th class="w70 text-center"> 新品 </th>
                                         <th class="w70 text-center"> 热销 </th>
+                                        <th class="w70 text-center" data-toggle="sortby" data-sortby="goods_number"> 修改 </th>
                                         <th class="w70 text-center" data-toggle="sortby" data-sortby="goods_number"> 库存 </th>
 
-                                        <th class="w70 sorting text-center" data-toggle="sortby" data-sortby="store_sort_order">排序</th>
+
                                     </tr>
                                     </thead>
                                     <tbody id="parent">
@@ -238,16 +252,19 @@
                                                 <i title="热销" id="{{$result->id}}" name="zero"  class="cursor_pointer fa fa-times" data-id="617"></i>
                                             @endif
                                         </td>
+
                                         <td align="center">
-									<span class="cursor_pointer editable editable-click" data-trigger="editable" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=edit_goods_number" data-name="goods_number" data-pk="617" data-title="请输入库存数量">
-										{{$result->库存}}
-									</span>
+                                            <a href="" class="btn btn-primary data-pjax">
+                                                <i class="fa fa-list"></i>
+                                            </a>
                                         </td>
+
                                         <td align="center">
-									<span class="cursor_pointer editable editable-click" data-trigger="editable" data-placement="left" data-url="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=edit_sort_order" data-name="sort_order" data-pk="617" data-title="请输入排序序号">
-										0
-									</span>
+                                            <a onclick="add_add('添加商品规格','{{ $result->id }}')" class="btn btn-primary data-pjax">
+                                                <i class="fa fa-plus"></i>
+                                            </a>
                                         </td>
+
                                     </tr>
                                     @endforeach
                                     </tbody>
@@ -450,10 +467,157 @@
 <script type="text/javascript" src="/static/merchant_product.js"></script>
 
 
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+            </div>
+            <div class="body-content">
+                    <div class="div color">
+                    @foreach($color as $col)
+                        <input id="color{{ $col->id }}" class="color" type="checkbox" name="color[]" value="{{$col->name}}">
+                        <label class="color" for="color{{ $col->id }}">{{$col->name}}</label>
+                    @endforeach
+                    </div>
+                    <br>
+                    <div class="div size">
+                           @foreach($type as $ty)
+                            <input class="size" id="type{{ $col->id }}{{$ty->id}}" type="checkbox" name="type[]" value="{{$ty->type}}">
+                            <label for="type{{ $col->id }}{{$ty->id}}">{{$ty->type}}</label>
+                        @endforeach
+                    </div>
+
+                    <div class="div">
+                        <form method="post" class="form-x from" id="uploadForm" enctype ="multipart/form-data">
+
+                        <table class="tables" border="1" width="500px">
+                            <thead>
+                            <tr>
+                                <th>颜色</th>
+                                <th>尺码</th>
+                                <th>库存</th>
+                                <th>价格</th>
+                            </tr>
+                            </thead>
 
 
+                            <tbody class="attr">
+
+                            </tbody>
+
+
+                        </table>
+                            <input type="hidden" id="shop_id" name="shop_id" value="">
+                        </form>
+                    </div>
+
+
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary" onclick="add_save()">提交更改</button>
+                    </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<script src=""></script>
 <script type="text/javascript">
-    ecjia.merchant.goods_list.init();
+    var color = new Array();
+    var size = new Array();
+    $('.color').find('input:checkbox').click(function () {
+        if($(this).prop('checked')){
+            color.push($(this).val());
+        }else{
+            color.remove($(this).val());
+        }
+        if(size.length > 0){
+            $('.attr').empty();
+            $.each(color,function (key,val) {
+                $.each(size,function (keyss, valss) {
+                    var str = '<tr>' +
+                        '<td>'+val+'<input type="hidden" name="color[]" value="'+val+'"></td>' +
+                        '<td>'+valss+'<input type="hidden" name="size[]" value="'+valss+'"></td>' +
+                        '<td id="money"+keyss><input style="width:50px;" id="money" type="text" name="money[]"  value="100"><label for="money">元</label></td>'+
+                        '<td id="Stock"+keyss><input style="width:50px;" id="stock" type="text" name="Stock[]"  value="100"><label for="stock">件</label></td>' +
+                        '</tr><br>';
+                    $('.attr').append(str);
+                })
+            })
+        }
+    });
+    $('.size').find('input:checkbox').click(function () {
+        if($(this).prop('checked')){
+            size.push($(this).val());
+        }else{
+            size.remove($(this).val());
+        }
+
+        if(color.length > 0){
+            $('.attr').empty();
+            $.each(color,function (key,val) {
+                $.each(size,function (keyss, valss) {
+                    var str = '<tr>' +
+                        '<td>'+val+'<input type="hidden" name="color[]" value="'+val+'"></td>' +
+                        '<td>'+valss+'<input type="hidden" name="size[]" value="'+valss+'"></td>' +
+                        '<td id="money"+keyss><input style="width:50px;" id="money" type="text" name="money[]"  value="100"><label for="money">元</label></td>'+
+                        '<td id="Stock"+keyss><input style="width:50px;" id="stock" type="text" name="stock[]"  value="100"><label for="stock">件</label></td>' +
+                        '</tr><br>';
+                    $('.attr').append(str);
+                })
+            })
+        }
+    });
+    Array.prototype.remove = function (val) {
+        var index = this.indexOf(val);
+        if (index > -1) {
+            this.splice(index, 1);
+        }
+    };
+    function add_add(title,id){
+        $('#myModalLabel').html(title);
+        $('#shop_id').val(id);
+        $(function() {
+            $('#myModal').modal({
+                keyboard: true
+            })
+        });
+    }
+    function add_save() {
+        var datas = new FormData($('#uploadForm')[0]);
+        console.log(datas);
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': '{{  csrf_token() }}'
+            }
+        });
+        datas.append('_token','{{  csrf_token() }}')
+        $.ajax({
+            type:"post",
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false,
+            url:"/Admin/spec",
+            data:datas,
+            dataType:'json',
+            success:function(data){
+                if(data.code == 1){
+                    layer.msg(data.msg,{icon:1},function(){
+                        $(function() {
+                            $('#myModal').modal('hide')
+                        });
+                    })
+
+                }
+            },
+        });
+    }
+
 </script>
 
 
@@ -462,3 +626,4 @@
 
 
 <a href="http://demodaojia.ecjia.com/sites/merchant/index.php?m=goods&amp;c=merchant&amp;a=init#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
+<script src="/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-modal.js"></script>

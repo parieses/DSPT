@@ -27,6 +27,8 @@ Route::get('Admin/commodityadd','Admin\commoditylistController@Comlists');
 Route::post('Admin/commodityinquire','Admin\commoditylistController@commodityinquire');
 Route::post('Admin/commodityupdate','Admin\commoditylistController@update');
 Route::post('Admin/commoditydelete','Admin\commoditylistController@delete');
+//添加商品规格
+Route::post('Admin/spec','Admin\commoditylistController@spec');
 //商品添加
 
 //商品分类展示

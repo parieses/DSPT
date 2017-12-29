@@ -19,6 +19,9 @@ class commentController extends Controller
      */
     public function index()
     {
+        if (empty(session('user_info'))){
+            alert('请登录!','/Admin/login','2');
+        }
         $comment = DB::select('select * from DS_Comment');
         $user = session('user_info');
         return View('comment')->with('comment',$comment)->with('user',$user);

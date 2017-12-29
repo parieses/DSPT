@@ -19,6 +19,9 @@ class storeController extends Controller
      */
     public function index()
     {
+        if (empty(session('user_info'))){
+            alert('请登录!','/Admin/login','2');
+        }
         $user = session('user_info');
         return View('store')->with('user',$user);;
     }

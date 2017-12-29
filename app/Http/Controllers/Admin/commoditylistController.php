@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
-
+use function PHPSTORM_META\type;
 
 
 class commoditylistController extends Controller
@@ -22,7 +22,9 @@ class commoditylistController extends Controller
         $user = session('user_info');
         $results = DB::table('Comlist')->paginate(10);
         $comtypes = DB::table('Comtype')->get();
-        return View('commoditylist',compact('results'))->with('user',$user)->with('comtypes',$comtypes);
+        $color = DB::table('Color')->get();
+        $type = DB::table('Type')->get();
+        return View('commoditylist',compact('results'))->with('user',$user)->with('comtypes',$comtypes)->with('color',$color)->with('type',$type);
     }
     function Comlists(){
         if (empty(session('user_info'))){
@@ -30,9 +32,7 @@ class commoditylistController extends Controller
         }
         $ls = DB::select('select * from DS_Comtype where pid <>0');
         $user = session('user_info');
-        $color = DB::select('select * from DS_Color ');
-        $type = DB::select('select * from DS_Type ');
-        return view('commodityadd',compact('ls'))->with('user',$user)->with('color',$color)->with('type',$type);
+        return view('commodityadd',compact('ls'))->with('user',$user);
     }
 
     /**
@@ -149,7 +149,6 @@ class commoditylistController extends Controller
 
     public function update(){
         $arr = Input::get();
-//        print_r($arr);exit;
         if ($arr['status'] == 1){
             $arr['status'] = 0;
             unset($arr['_token']);
@@ -185,5 +184,33 @@ class commoditylistController extends Controller
         }else{
             return ['result'=>'更新失败!'];
         }
+    }
+    public function spec()
+    {
+        $data = (Input::all());
+        unset($data['_token']);
+        $id = $data['shop_id'];
+        $keys = array_keys($data);
+        $arr = [];
+       foreach ($data[$keys[0]] as $k=>$v){
+            $arr[$k] =[$keys[0]=>$v,$keys[1]=>$data[$keys[1]][$k],$keys[2]=>$data[$keys[2]][$k],$keys[3]=>$data[$keys[3]][$k],'cid'=>$id];
+       }
+       foreach ($arr as $key=> $v){
+           unset($v['money']);
+           unset($v['stock']);
+          $lls = DB::table('Specification')->where($v)->get();
+          foreach ($lls as $xx) {
+              if (!empty($xx)) {
+                  unset($arr[$key]);
+              }
+          }
+
+       }
+       $insert = DB::table('Specification')->insert($arr);
+        if ($insert !== false){
+            return ['code'=>1,'msg'=>'数据添加成功!'];
+        }
+        return ['code'=>-1,'msg'=>'数据添加失败!'];
+
     }
 }

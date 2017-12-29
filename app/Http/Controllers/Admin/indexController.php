@@ -17,6 +17,9 @@ class indexController extends Controller
      */
     public function index()
     {
+        if (empty(session('user_info'))){
+            alert('请登录!','/Admin/login','2');
+        }
        $user = session('user_info');
        $info =  DB::table('Log')->get();
        return View('index',compact('info'))->with('user',$user);
