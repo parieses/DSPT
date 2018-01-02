@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="811c8a9a-9c6f-4260-814a-979a288d9aca" name="Default" comment="" />
+    <list default="true" id="811c8a9a-9c6f-4260-814a-979a288d9aca" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commoditylist.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commoditylist.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/commoditylist.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-825">
@@ -42,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commoditylistController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="commoditylistController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="201" column="33" lean-forward="true" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
+            <state relative-caret-position="241">
+              <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
-                <marker date="1514431126000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
-                <marker date="1514431126000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
-                <marker date="1514431126000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
-                <marker date="1514431126000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
-                <marker date="1514431126000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
-                <marker date="1514431126000" expanded="true" signature="4634:4733" ph="select * fro... DS_Comlist" />
-                <marker date="1514431126000" expanded="true" signature="5932:5977" ph="delete from " />
+                <marker date="1514510565000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
+                <marker date="1514510565000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
+                <marker date="1514510565000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
+                <marker date="1514510565000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
+                <marker date="1514510565000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
+                <marker date="1514510565000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
+                <marker date="1514510565000" expanded="true" signature="5857:5902" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -581,18 +584,19 @@
       <workItem from="1513912140267" duration="536000" />
       <workItem from="1513943689366" duration="11986000" />
       <workItem from="1514172895886" duration="665000" />
-      <workItem from="1514188183218" duration="26522000" />
+      <workItem from="1514188183218" duration="26623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142826000" />
+    <option name="totallyTimeSpent" value="142927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.009879254" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -995,22 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="201" column="33" lean-forward="true" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
-          <folding>
-            <marker date="1514431126000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
-            <marker date="1514431126000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
-            <marker date="1514431126000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
-            <marker date="1514431126000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
-            <marker date="1514431126000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
-            <marker date="1514431126000" expanded="true" signature="4634:4733" ph="select * fro... DS_Comlist" />
-            <marker date="1514431126000" expanded="true" signature="5932:5977" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/commoditylist.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
@@ -1025,6 +1013,22 @@
             <marker date="1514430918000" expanded="true" signature="35914:36105" ph="..." />
             <marker date="1514430918000" expanded="true" signature="35996:36098" ph="..." />
             <marker date="1514430918000" expanded="true" signature="36008:36086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <marker date="1514510565000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
+            <marker date="1514510565000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
+            <marker date="1514510565000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
+            <marker date="1514510565000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
+            <marker date="1514510565000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
+            <marker date="1514510565000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
+            <marker date="1514510565000" expanded="true" signature="5857:5902" ph="delete from " />
           </folding>
         </state>
       </provider>

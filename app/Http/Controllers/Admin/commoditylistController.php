@@ -111,8 +111,6 @@ class commoditylistController extends Controller
         if(!Input::file('图片')->isValid()){
             alert('图片上传失败!','/Admin/commodityadd',2);
         }
-        $map['衣服型号'] = $data['衣服型号'];
-        $map['衣服颜色']= $data['衣服颜色'];
         $map['货号']= $data['货号'];
         $map['商品名称']=$data['商品名称'];
         $ls =  DB::table('Comlist')->where($map)->get();
