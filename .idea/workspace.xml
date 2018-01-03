@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811c8a9a-9c6f-4260-814a-979a288d9aca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/commoditylistController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,13 +50,13 @@
             <state relative-caret-position="241">
               <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
-                <marker date="1514510565000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
-                <marker date="1514510565000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
-                <marker date="1514510565000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
-                <marker date="1514510565000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
-                <marker date="1514510565000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
-                <marker date="1514510565000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
-                <marker date="1514510565000" expanded="true" signature="5857:5902" ph="delete from " />
+                <marker date="1514855789000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
+                <marker date="1514855789000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
+                <marker date="1514855789000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
+                <marker date="1514855789000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
+                <marker date="1514855789000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
+                <marker date="1514855789000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
+                <marker date="1514855789000" expanded="true" signature="5857:5902" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -584,12 +583,12 @@
       <workItem from="1513912140267" duration="536000" />
       <workItem from="1513943689366" duration="11986000" />
       <workItem from="1514172895886" duration="665000" />
-      <workItem from="1514188183218" duration="26623000" />
+      <workItem from="1514188183218" duration="27047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142927000" />
+    <option name="totallyTimeSpent" value="143351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1022,13 +1021,13 @@
         <state relative-caret-position="241">
           <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
-            <marker date="1514510565000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
-            <marker date="1514510565000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
-            <marker date="1514510565000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
-            <marker date="1514510565000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
-            <marker date="1514510565000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
-            <marker date="1514510565000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
-            <marker date="1514510565000" expanded="true" signature="5857:5902" ph="delete from " />
+            <marker date="1514855789000" expanded="true" signature="961:999" ph="select * fro... DS_Comtype" />
+            <marker date="1514855789000" expanded="true" signature="1445:1506" ph="select typen... DS_Comtype" />
+            <marker date="1514855789000" expanded="true" signature="1600:1665" ph="select * fro... DS_Comtype" />
+            <marker date="1514855789000" expanded="true" signature="2183:2231" ph="select id,ty... DS_Comtype" />
+            <marker date="1514855789000" expanded="true" signature="2552:2576" ph="select * fro... DS_Comtype" />
+            <marker date="1514855789000" expanded="true" signature="4559:4658" ph="select * fro... DS_Comlist" />
+            <marker date="1514855789000" expanded="true" signature="5857:5902" ph="delete from " />
           </folding>
         </state>
       </provider>
